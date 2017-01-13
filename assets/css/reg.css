@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+/*---注册页面顶部---*/
+.Logo-r {
+    height: 95px;
+    width: 100%;
+}
+.Logo-info-r {
+    width: 920px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+.Logo-info-r a.logo {
+    display: block;
+    width: 290px;
+    height: 80px;
+    background: url(../images/logo.jpg) no-repeat;
+    margin: 0px;
+    float: left;
+}
+.Logo-info-r span.findpw {
+    border-left: 1px #ddd solid;
+    width: 290px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 28px;
+    margin: 26px 0px 0px 15px;
+    float: left;
+    padding: 0px 15px;
+}
+.Logo-info-r a.sina, .Logo-info-r a.qq, .Logo-info-r span.weixin, .item table td a i {
+    background: url(../images/login.png) no-repeat;
+}
+.Logo-info-r a.qq {
+    width: 23px;
+    height: 23px;
+    background-position: -12px -10px;
+    margin: 35px 0px 0 20px;
+    float: right;
+}
+.Logo-info-r a.sina {
+    width: 23px;
+    height: 23px;
+    background-position: -64px -10px;
+    margin: 35px 0 0 20px;
+    float: right;
+}
+.Logo-info-r span.weixin {
+    width: 24px;
+    height: 23px;
+    background-position: -123px -10px;
+    margin: 35px 0 0 20px;
+    float: right;
+    cursor: pointer;
+}
+/*--注册主体--*/
+.w .mcon {
+    margin-bottom: 20px;
+    height: 470px;
+    width: 990px;
+    overflow: hidden;
+    position: relative;
+}
+.w .mcon .box-pic {
+    position: absolute;
+    background: url(../images/loginPic.jpg) no-repeat 0;
+    width: 605px;
+    height: 430px;
+    left: -605px;
+    top: 0px;
+}
+.w .mcon .uc_box {
+    position: absolute;
+    top: 0px;
+    right: -385px;
+    width: 385px;
+}
+.w .mcon .box-pic1 {
+    background: url(../images/registerPic.jpg) no-repeat 0;
+    left: 0px;
+}
+.w .mcon .uc_box_reg {
+    right: 0px;
+}
+.register_tab {
+    right: 46px;
+    top: 70px;
+    z-index: 99;
+    font-size: 14px;
+    width: 382px;
+    height: 31px;
+    margin-left: 3px;
+}
+.register_tab li.tab_item {
+    width: 130px;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 5px 5px 0 0;
+}
+.register_tab li.cur {
+    background: #fff;
+    color: #e4393e;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 0;
+}
+.register_tab li.have_account {
+    font-size: 12px;
+    padding-top: 5px;
+}
+.register_tab li.tab_item .bg_ff {
+    display: none;
+    width: 130px;
+    height: 6px;
+    background: #f8f8f8;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.register_tab li.cur .bg_ff {
+    display: block;
+    background: #fff;
+}
+.register_tab li.have_account a {
+    color: #E4393C;
+}
+#entry .form, #regist .form, #entry1 .form {
+    float: right;
+    overflow: hidden;
+    border: 1px #ddd solid;
+    padding: 20px 40px;
+    width: 300px;
+    min-height: 370px;
+    height: auto;
+}
+#regist .register_con .form {
+    padding-top: 30px;
+}
+.form .item {
+    overflow: hidden;
+    zoom: 1;
+}
+#entry .text, #regist .text, #entry1 .text {
+    width: 258px;
+    height: 16px;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    font-family: arial;
+    color: #999;
+}
+#regist .item, #entry1 .item, #entry .item {
+    position: relative;
+}
+#entry .label, #regist .label {
+    font-size: 14px;
+    color: #666;
+    padding-right: 10px;
+    /*height: 30px;*/
+    line-height: 30px;
+    display: inline-block;
+}
+#regist .label, #entry1 .label {
+    font-size: 12px;
+    color: #999;
+}
+#regist .text {
+    padding-left: 30px;
+}
+#regist i {
+    position: absolute;
+    right: 8px;
+    background: url(../images/register.png) no-repeat scroll 0 0;
+}
+#regist .i-phone {
+    background-position: -1px -50px;
+    height: 21px;
+    top: 8px;
+    width: 14px;
+    left: 10px;
+}
+#regist .i-pass {
+    height: 19px;
+    top: 10px;
+    width: 14px;
+    left: 10px;
+    background-position: -1px -25px;
+}
+#regist .text_te {
+    width: 90px;
+}#entry1 #fphone, #regist #zphone, #regist #zemail {
+    height: 37px;
+    font-size: 12px;
+    font-style: normal;
+    font-family: microsoft yahei;
+    color: #FFF;
+    background: #E4393C;
+    text-align: center;
+    line-height: 37px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px 8px;
+    border: none;
+    margin-left: 10px;
+    float: left;
+}
+.form label, .form input, .form select, .form textarea, .form button {
+    float: left;
+    font-size: 12px;
+}
+#regist .safety {
+    height: 40px;
+    line-height: 40px;
+}
+#regist .safety .checkbox {
+    margin-top: 14px;
+}
+#regist .btn-regist {
+    width: 300px;
+    height: 35px;
+    font-size: 14px;
+    color: #FFF;
+    background: #E4393C;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border: none;
+}
+#pwd_intensity tr td{
+	border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+}
+#randomW{display:inline-block;width:80px;height:35px;text-align: center;line-height:35px;
+border:1px solid orange;font-size:16px;color:#008000;letter-spacing: 2px;}

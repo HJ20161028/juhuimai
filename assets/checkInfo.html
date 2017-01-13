@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物流程_聚惠买商城_河北首家网上商城平台营销服务商   </title>
+		<link rel="shortcut icon" href="images/animated_favicon.gif" type="image/gif">
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/shoppingCart.css" />
+		<link rel="stylesheet" href="css/checkInfo.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+		<script type="text/javascript" src="js/jq.js"></script>
+		<script type="text/javascript" src="js/tween.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/myTool.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/checkInfo.js"></script>
+	</head>
+	<body>
+		<!--*******************顶部菜单栏top_nav************************* -->
+		<div id="top">
+			<div class="top_nav">
+				<ul class="top_nav_region">
+					<b class="fa fa-map-marker"></b>
+					<li class="city">
+						<span class="city_name">邯郸</span>
+						<div class="citydown">
+							<h3 class="curcity">当前城市：<strong>邯郸</strong></h3>
+							<ul class="citydown_ul">
+								<li class="city1"><a href="javascript:;" class="city01">石家庄</a></li>
+								<li class="city2"><a href="javascript:;" class="city02">保定</a></li>
+								<li class="city3">
+									<a href="javascript:;" class="city031">沧州</a>
+									<a href="javascript:;" class="city032">承德</a>
+								</li>
+								<li class="city4">
+									<a href="javascript:;" class="city041">邯郸</a>
+									<a href="javascript:;" class="city042">衡水</a>
+								</li>
+								<li class="city5"><a href="javascript:;" class="city05">廊坊</a></li>
+								<li class="city6"><a href="javascript:;" class="city06">秦皇岛</a></li>
+								<li class="city7"><a href="javascript:;" class="city07">邢台</a></li>
+								<li class="city8"><a href="javascript:;" class="city08">唐山</a></li>
+								<li class="city8"><a href="javascript:;" class="city08">张家口</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="switch-region"><a href="javascript:;">[切换区县]</a></li>
+				</ul>
+				<ul class="top_nav_login">
+					<li><em>欢迎光临本店!</em></li>
+					<li class="login"><a href="log.html">请登录</a></li>
+					<li><a href="reg.html" class="register">免费注册</a></li>
+				</ul>
+				<ul class="top_nav_menu">
+					<li class="myinfo">
+						<a href="javascript:;">我的信息</a><span class="fa fa-angle-down"></span>
+						<div class="infodown">
+							<a href="javascript:;">已买到的宝贝</a>
+							<a href="javascript:;">我的地址管理</a>
+						</div>
+					</li>
+					<li class="myfocus"><span class="fa fa-heart"></span><a href="javascript:;">我关注的店铺</a></li>
+					<li class="shopcart"><span class="fa fa-shopping-cart"></span><a href="javascript:;">购物车</a></li>
+					<li class="favorites">
+						<a href="javascript:;">收藏夹</a><span class="fa fa-angle-down"></span>
+						<div class="favdown">
+							<a href="javascript:;">收藏的宝贝</a>
+							<a href="javascript:;">收藏的店铺</a>
+						</div>
+					</li>
+					<li class="line"></li>
+					<li class="mobile">
+						<span class="fa fa-mobile"></span>
+						<a href="javascript:;">手机版</a>
+						<span class="fa fa-angle-down"></span>
+						<div class="mobdown">
+							<img src="images/app.jpg" alt="手机客户端" style="width:150px;heigth:150px;"/>
+						</div>
+					</li>
+					<li class="sup">
+						<a href="javascript:;">商家支持</a><span class="fa fa-angle-down"></span>
+						<div class="supdown">
+							<ul>
+								<li>
+									<h3>商家</h3>
+									<a href="javascript:;">购物流程</a><a href="javascript:;">售后流程</a>
+									<a href="javascript:;">购物流程</a><a href="javascript:;">售后流程</a>
+									<a href="javascript:;">购物流程</a><a href="javascript:;">售后流程</a>
+									<a href="javascript:;">购物流程</a><a href="javascript:;">售后流程</a>
+									<a href="javascript:;">购物流程</a>
+								</li>
+								<li>
+									<h3>帮助</h3>
+									<a href="javascript:;">帮助中心</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav">
+						<span class="fa fa-list-ul"></span><a href="javascript:;">网站导航</a>
+						<span class="fa fa-angle-down"></span>
+						<div class="navdown">
+							<div class="site-cont hot">
+								<h2>产品分类<span>Product</span></h2>
+								<ul class="site-list">
+									<li><a href="javascript:;">食品生鲜</a></li>
+									<li><a href="javascript:;">服装服饰</a></li>
+									<li><a href="javascript:;">个护化妆</a></li>
+									<li><a href="javascript:;">手机数码</a></li>
+									<li><a href="javascript:;">家用电器</a></li>
+									<li><a href="javascript:;">家纺家居</a></li>
+									<li><a href="javascript:;">酒类饮料</a></li>
+									<li><a href="javascript:;">母婴用品</a></li>
+								</ul>
+							</div>
+							<div class="site-cont market">
+								<h2>店铺街<span>Market</span></h2>
+								<ul class="site-list">
+									<li><a href="javascript:;">精选</a></li>
+									<li><a href="javascript:;">女人</a></li>
+									<li><a href="javascript:;">男人</a></li>
+									<li><a href="javascript:;">家装</a></li>
+									<li><a href="javascript:;">女婴</a></li>
+									<li><a href="javascript:;">美妆</a></li>
+									<li><a href="javascript:;">美食</a></li>
+									<li><a href="javascript:;">数码</a></li>
+								</ul>
+							</div>
+							<div class="site-cont brand">
+								<h2>关于我们<span>About</span></h2>
+								<ul class="site-list">
+									<li><a href="javascript:;">公司简介</a></li>
+									<li><a href="javascript:;">管理团队</a></li>
+									<li><a href="javascript:;">媒体报道</a></li>
+									<li><a href="javascript:;">领导关怀</a></li>
+									<li><a href="javascript:;">招贤纳士</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部提示信息-->
+		<div class="headerLayout clearfix" style="padding-top:15px; padding-bottom:5px;">
+			<div class="headerCon clearfix">
+				<h1 id="mallLogo" style="padding-top:10px;">
+					<a href="index.html" class="header-logo">
+						<img src="images/logo.jpg">
+					</a>
+				</h1>
+				<div class="header-extra"> </div>
+			</div>
+			<div id="A_Stepbar" class="flowstep">
+				<ol class="flowstep-5">
+					<li class="step-first">
+						<div class="step-done">
+							<div class="step-name">查看购物车</div>
+							<div class="step-no"></div>
+						</div>
+					</li>
+					<li>
+						<div class="step-done">
+							<div class="step-name">拍下商品</div>
+							<div class="step-no"></div>
+						</div>
+					</li>
+					<li>
+						<div class="step-name">付款</div>
+						<div class="step-no">3</div>
+					</li>
+					<li>
+						<div class="step-name">确认收货</div>
+						<div class="step-no">4</div>
+					</li>
+					<li class="step-last">
+						<div class="step-name">评价</div>
+						<div class="step-no">5</div>
+					</li>
+				</ol>
+			</div>
+		</div>
+		<!--取货地址+商品信息等-->
+		<div class="block_jm">
+			<form action="" method="post" name="theForm" id="theForm">
+				<div class="blank10"></div>
+				<div class="checkBox_jm clearfix">
+					<div class="title">1 地址选择</div>
+					<div class="address_jm" id="AddressList">
+						<div class="blank10"></div>
+						<div class="blank10"></div>
+						<table cellpadding="4" cellspacing="4" width="100%">
+							<tbody>
+								<tr>
+									<td align="right">
+										<font color="#ff3300">*</font>收件人</td>
+									<td><input type="text" name="consignee" class="input_addr2"></td>
+								</tr>
+								<tr>
+									<td align="right">
+										<font color="#ff3300">*</font>所在地区</td>
+									<td>
+										<input type="hidden" name="country" value="1">
+										<select name="province" id="selProvinces" style="width:155px;height:25px;border:1px solid #ccc;">
+											<option>请选择省</option>
+										</select>
+										<select name="city" id="selCities"  style="width:155px;height:25px;border:1px solid #ccc;">
+											<option>请选择市</option>
+										</select>
+										<select name="district" id="selDistricts" style="display:none; width:155px; height:25px; border:1px solid #ccc;">
+											<option>请选择区</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td align="right">
+										<font color="#ff3300">*</font>街道地址</td>
+									<td><input type="text" name="address" class="input_addr1"></td>
+								</tr>
+								<tr>
+									<td style="text-align:right;">
+										<!-- <font color=#ff3300>*</font> -->电子邮箱</td>
+									<td><input type="text" name="email" class="input_addr1" value=""></td>
+								</tr>
+								<tr>
+									<td align="right">邮编</td>
+									<td><input type="text" name="zipcode" class="input_addr3"></td>
+								</tr>
+								<tr>
+									<td align="right">
+										<font color="#ff3300">*</font>手机号码</td>
+									<td>
+										<input type="text" name="mobile" class="input_addr2">&nbsp;&nbsp;&nbsp;&nbsp;或固定电话 
+										<input type="text" name="tel_01" class="input_addr4"> - 
+										<input type="text" name="tel_02" class="input_addr3"> - 
+										<input type="text" name="tel_03" class="input_addr4">
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<font color="#cccccc">两者至少填写一项</font>
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td style="padding-top:10px;">
+										<input type="hidden" name="address_id" value="0">
+										<input type="hidden" name="shipping_bian" value="1">
+										<input type="hidden" name="closediv" value="0">
+										<input type="button" class="BonusButton" value=" 确定 " ></td>
+								</tr>
+							</tbody>
+						</table>
+				
+					</div>
+					<div id="popDiv" class="mydiv" style="display: none;">
+						<div class="mydiv-l" id="PopAddressTitle">修改地址</div>
+						<div class="mydiv-r" onclick="javascript:closePopDiv()"></div>
+						<div id="PopAddressCon">
+							<table cellpadding="4" cellspacing="4" width="100%" style="clear:both;margin-top:20px;">
+								<tbody>
+									<tr>
+										<td style="text-align:right;width:10%">
+											<font color="#ff3300">*</font>收件人</td>
+										<td><input type="text" name="consignee" value="231qwq2" class="input_addr2"></td>
+									</tr>
+									<tr>
+										<td style="text-align:right;">
+											<font color="#ff3300">*</font>所在地区</td>
+										<td>
+											<input type="hidden" name="country" value="1">
+											<select name="province" id="selProvinces"  style="width:155px;height:25px;border:1px solid #ccc;">
+												<option >请选择</option>
+												<option value="2">北京</option>
+												<option value="3">安徽</option>
+												<option value="4">福建</option>
+												<option value="5">甘肃</option>
+												<option value="6">广东</option>
+												<option value="7">广西</option>
+												<option value="8">贵州</option>
+												<option value="9">海南</option>
+												<option value="10" selected="">河北</option>
+												<option value="11">河南</option>
+												<option value="12">黑龙江</option>
+												<option value="13">湖北</option>
+												<option value="14">湖南</option>
+												<option value="15">吉林</option>
+												<option value="16">江苏</option>
+												<option value="17">江西</option>
+												<option value="18">辽宁</option>
+												<option value="19">内蒙古</option>
+												<option value="20">宁夏</option>
+												<option value="21">青海</option>
+												<option value="22">山东</option>
+												<option value="23">山西</option>
+												<option value="24">陕西</option>
+												<option value="25">上海</option>
+												<option value="26">四川</option>
+												<option value="27">天津</option>
+												<option value="28">西藏</option>
+												<option value="29">新疆</option>
+												<option value="30">云南</option>
+												<option value="31">浙江</option>
+												<option value="32">重庆</option>
+												<option value="33">香港</option>
+												<option value="34">澳门</option>
+												<option value="35">台湾</option>
+											</select>
+											<select name="city" id="selCities"  style="width:155px;height:25px;border:1px solid #ccc;">
+												<option value="0">请选择</option>
+												<option value="138" selected="">石家庄</option>
+												<option value="139">保定</option>
+												<option value="140">沧州</option>
+												<option value="141">承德</option>
+												<option value="142">邯郸</option>
+												<option value="143">衡水</option>
+												<option value="144">廊坊</option>
+												<option value="145">秦皇岛</option>
+												<option value="146">唐山</option>
+												<option value="147">邢台</option>
+												<option value="148">张家口</option>
+											</select>
+											<select name="district" id="selDistricts" style="width:155px;height:25px;border:1px solid #ccc;">
+												<option value="0">请选择</option>
+												<option value="1078" selected="">长安区</option>
+												<option value="1079">桥东区</option>
+												<option value="1080">桥西区</option>
+												<option value="1081">新华区</option>
+												<option value="1082">裕华区</option>
+												<option value="1083">井陉矿区</option>
+												<option value="1084">高新区</option>
+												<option value="1085">辛集市</option>
+												<option value="1086">藁城市</option>
+												<option value="1087">晋州市</option>
+												<option value="1088">新乐市</option>
+												<option value="1089">鹿泉市</option>
+												<option value="1090">井陉县</option>
+												<option value="1091">正定县</option>
+												<option value="1092">栾城县</option>
+												<option value="1093">行唐县</option>
+												<option value="1094">灵寿县</option>
+												<option value="1095">高邑县</option>
+												<option value="1096">深泽县</option>
+												<option value="1097">赞皇县</option>
+												<option value="1098">无极县</option>
+												<option value="1099">平山县</option>
+												<option value="1100">元氏县</option>
+												<option value="1101">赵县</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td style="text-align:right;">
+											<font color="#ff3300">*</font>街道地址</td>
+										<td><input type="text" name="address" class="input_addr1" value="高新6路"></td>
+									</tr>
+									<tr>
+										<td style="text-align:right;">
+											<!-- <font color=#ff3300>*</font> -->电子邮箱</td>
+										<td><input type="text" name="email" class="input_addr1" value="1230123541@qq.com"></td>
+									</tr>
+									<tr>
+										<td style="text-align:right;">邮编</td>
+										<td><input type="text" name="zipcode" class="input_addr3" value="615200"></td>
+									</tr>
+									<tr>
+										<td style="text-align:right;">
+											<font color="#ff3300">*</font>手机号码</td>
+										<td>
+											<input type="text" name="mobile" class="input_addr2 input_addr2_t" value="18325621456">&nbsp;&nbsp;&nbsp;&nbsp;或固定电话
+											<input type="text" name="tel_01" class="input_addr4" value=""> - <input type="text" name="tel_02" class="input_addr3" value=""> - <input type="text" name="tel_03" class="input_addr4" value="">
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>
+											<font color="#cccccc">两者至少填写一项</font>
+										</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td style="padding-top:10px;">
+											<input type="hidden" name="address_id" value="65">
+											<input type="hidden" name="shipping_bian" value="0">
+											<input type="hidden" name="closediv" value="1">
+											<input type="button" class="BonusButton" value=" 确定 ">&nbsp;&nbsp;<input type="button" class="Button_reset" value=" 取消 "></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				
+				<div class="checkBox_jm">
+					<div class="title">2 送货时间 <span class="songhuo">送货时间仅作参考，快递公司会尽量满足您的要求</span></div>
+					<div class="timebox">
+						<ul>
+							<li class="curr" id="time_id_1">
+								<input id="time_delivery1" type="radio" name="best_time" value="仅工作日送货" checked="checked">
+								<label for="time_delivery1">仅工作日送货</label>
+							</li>
+							<li id="time_id_2">
+								<input id="time_delivery2" type="radio" name="best_time" value="仅周末送货">
+								<label for="time_delivery2">仅周末送货</label>
+							</li>
+							<li id="time_id_3">
+								<input id="time_delivery3" type="radio" name="best_time" value="工作日/周末/假日均可">
+								<label for="time_delivery3">工作日/周末/假日均可</label>
+							</li>
+							<li id="time_id_4" style="position:relative;">
+								<input type="radio" name="best_time" value="" id="definetime_input">
+								<label for="definetime_input" id="definetime">指定送货时间</label>
+								<div class="seltimebox" id="seltimebox">
+									<table cellpadding="5" cellspacing="0" width="100%">
+										<tbody>
+											<tr bgcolor="#ffffff">
+												<td style="padding-left:10px">时间段</td>
+												<td align="center">11-21<br> 今天
+												</td>
+												<td align="center">11-22<br> 周二
+												</td>
+												<td align="center">11-23<br> 周三
+												</td>
+												<td align="center">11-24<br> 周四
+												</td>
+												<td align="center">11-25<br> 周五
+												</td>
+												<td align="center">11-26<br> 周六
+												</td>
+												<td align="center">11-27<br> 周日
+												</td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td style="padding-left:10px">9:00--15:00</td>
+												<td align="center">&nbsp;</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-22 周二 9:00--15:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-23 周三 9:00--15:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-24 周四 9:00--15:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-25 周五 9:00--15:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-26 周六 9:00--15:00">可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-27 周日 9:00--15:00">可选</a>
+												</td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td style="padding-left:10px">15:00--19:00</td>
+												<td align="center">&nbsp;</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-22 周二 15:00--19:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-23 周三 15:00--19:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-24 周四 15:00--19:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-25 周五 15:00--19:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-26 周六 15:00--19:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-27 周日 15:00--19:00">可选</a>
+												</td>
+											</tr>
+											<tr bgcolor="#ffffff">
+												<td style="padding-left:10px">19:00--22:00</td>
+												<td align="center">&nbsp;</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-22 周二 19:00--22:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-23 周三 19:00--22:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-24 周四 19:00--22:00" >可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-25 周五 19:00--22:00">可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-26 周六 19:00--22:00">可选</a>
+												</td>
+												<td align="center">
+													<a href="javascript:void(0);" name="11-27 周日 19:00--22:00" >可选</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="blank"></div>
+				</div>
+				
+				<div class="checkBox_jm">
+					<div class="title">3 商品清单</div>
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="checkgoods">
+						<tbody>
+							<tr>
+								<th width="50%" align="left" class="tdone">商品</th>
+								<th>数量</th>
+								<th>单价</th>
+								<th>小计</th>
+							</tr>
+							<tr>
+								<td colspan="4" style="background:#FAFAFA; border-top:2px solid #d9d9d9; font-weight:bold; padding:5px 10px;"> 聚惠买商贸公司</td>
+							</tr>
+							<!--生成购物车列表商品信息<tr>
+								<td width="50%" style="border-top:none;">
+									<div class="thumb_name">
+										<dl>
+											<dt>
+												<a href="###" target="_blank">
+													<img src="images/201603/thumb_img/2692_thumb_G_1456880703478.jpg" style="border:1px solid #ddd;" title="邯郸特产曲周小米礼盒装/2500克">
+												</a>
+											</dt>
+											<dd>
+												<a href="###" target="_blank" class="f6">邯郸特产曲周小米礼盒装/2500克</a> <br>
+												<font class="attrname"></font>
+				
+											</dd>
+										</dl>
+									</div>
+				
+								</td>
+								<td align="center" style="border-top:none;">1</td>
+								<td align="center" class="price_font" style="border-top:none;">51.30</td>
+								<td align="center" class="price_font" style="border-top:none;">51.30</td>
+							</tr>-->
+				
+							<tr>
+								<td colspan="4" bgcolor="#ffffff" align="left" class="shipping_type">
+									<ul class="shipping_jm">
+										<li>
+											<input type="hidden" name="pay_ship[157]" id="pay_ship_157" class="shipping" value="114">
+											<a id="ship_157_114" title="由商家选择合作快递为您配送： 运费19.00 " class="shipping_type shipping_type_curr pay_ship157">
+												<!--注意：如果选中的是当前的配送，注意a标签的变化，变化为<a class="shipping_type shipping_type_curr">-->
+												<label>普通快递</label>
+											</a>
+										</li>
+									</ul>
+				
+									<span id="picktxt157"></span>
+				
+									<p class="shipping_desc" id="desc_157">由商家选择合作快递为您配送： 运费19.00 </p>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" bgcolor="#ffffff" align="left" style="padding:12px 0 12px 30px;">
+									<div class="checkout_other">
+										<a class="jmbag" href="javascript:void(0);"><span>+</span>使用店铺优惠券</a>
+										<table class="subbox_other sub_bonus" width="100%">
+											<tbody>
+												<tr>
+													<td align="right" width="120">使用店铺优惠券：</td>
+													<td>
+														<select name="bonus[157]" id="ECS_BONUS_157" class="otherinput">
+															<option value="0" selected="">请选择</option>
+														</select>
+													</td>
+													<td>&nbsp; 或 &nbsp;
+														<a href="javascript:void(0);" class="a_other1_h" id="Bonus_a_157">直接输入优惠券号</a>
+													</td>
+													<td>
+														<label id="Bonus_span_157" style="display:none;">
+										                    <input name="bonus_sn[157]" id="bonus_sn_157" type="text" size="15" value="输入优惠券" style="height:22px;">
+										                    <input name="validate_bonus" type="button" value="使用" class="BonusButton">
+									                    </label>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="checkgoods">
+						<tbody>
+							<tr>
+								<td colspan="4" class="tdother2">
+									<div class="checkout_other">
+										<a class="jmbag" href="javascript:void(0);"><span>+</span>开发票</a>
+				
+										<table class="subbox_other" width="100%">
+											<tbody width="100%" cellpadding="5" cellspacing="0">
+												<tr>
+													<td align="right">
+														<input name="need_inv" type="checkbox" id="ECS_NEEDINV"  value="1" class="checkbox">
+														<label class="mar-b">开发票：</label></td>
+													<td align="left" colspan="2">
+														<select name="inv_type" id="ECS_INVTYPE"   style="width:145px;height:28px;">
+															<option value="0">请选择发票类型</option>
+														</select>&nbsp;&nbsp;
+														<select name="inv_content" id="ECS_INVCONTENT"  style="width:145px;height:28px;">
+															<option value="0">请选择发票内容</option>
+				
+															<option value="明细">明细</option>
+															<option value="办公用品">办公用品</option>
+															<option value="电脑配件">电脑配件</option>
+															<option value="耗材">耗材</option>
+															<option value="其他">其他</option>
+				
+														</select>
+													</td>
+												</tr>
+											</tbody>
+				
+											<tbody id="vat_invoice_tbody" style="display:none;" width="100%" cellpadding="5" cellspacing="0">
+												<tr>
+													<td colspan="3" align="left"><strong style="font-size:16px;">公司信息</strong></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>单位名称：</td>
+													<td colspan="2"><input name="vat_inv_company_name" type="text" class="otherinput2"></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>纳税人识别号：</td>
+													<td width="300" style="width:300px;"><input name="vat_inv_taxpayer_id" type="text" class="otherinput2"></td>
+													<td>&nbsp;<span id="taxpayer_notice" style="font-size:12px;color:#f00;"></span></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>注册地址：</td>
+													<td colspan="2"><input name="vat_inv_registration_address" type="text" class="otherinput2"></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>注册电话：</td>
+													<td colspan="2"><input name="vat_inv_registration_phone" type="text" class="otherinput2"></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>开户银行：</td>
+													<td colspan="2"><input name="vat_inv_deposit_bank" type="text" class="otherinput2"></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>银行账户：</td>
+													<td><input name="vat_inv_bank_account" type="text" class="otherinput2"></td>
+													<td>&nbsp;<span id="bank_account_notice" style="font-size:12px;color:#f00;"></span></td>
+												</tr>
+												<tr>
+													<td colspan="3" align="left" style="padding:10px 0px"><strong style="font-size:16px;">收票人信息</strong></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>收票人姓名：</td>
+													<td colspan="2"><input name="inv_consignee_name" type="text" class="otherinput2"></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>收票人手机：</td>
+													<td><input name="inv_consignee_phone" type="text" class="otherinput2"></td>
+													<td>&nbsp;<span id="phone_number_notice" style="font-size:12px;color:#f00;"></span></td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>收票人省份：</td>
+													<td colspan="2"><input type="hidden" name="country" value="1">
+														<select name="inv_consignee_province" id="selProvinces" style="width:155px;height:25px;border:1px solid #ccc;">
+															<option value="0">请选择省</option>
+															<option value="2">北京</option>
+															<option value="3">安徽</option>
+															<option value="4">福建</option>
+															<option value="5">甘肃</option>
+															<option value="6">广东</option>
+															<option value="7">广西</option>
+															<option value="8">贵州</option>
+															<option value="9">海南</option>
+															<option value="10">河北</option>
+															<option value="11">河南</option>
+															<option value="12">黑龙江</option>
+															<option value="13">湖北</option>
+															<option value="14">湖南</option>
+															<option value="15">吉林</option>
+															<option value="16">江苏</option>
+															<option value="17">江西</option>
+															<option value="18">辽宁</option>
+															<option value="19">内蒙古</option>
+															<option value="20">宁夏</option>
+															<option value="21">青海</option>
+															<option value="22">山东</option>
+															<option value="23">山西</option>
+															<option value="24">陕西</option>
+															<option value="25">上海</option>
+															<option value="26">四川</option>
+															<option value="27">天津</option>
+															<option value="28">西藏</option>
+															<option value="29">新疆</option>
+															<option value="30">云南</option>
+															<option value="31">浙江</option>
+															<option value="32">重庆</option>
+															<option value="33">香港</option>
+															<option value="34">澳门</option>
+															<option value="35">台湾</option>
+														</select>
+														<select name="inv_consignee_city" id="selCities" style="border: 1px solid rgb(204, 204, 204); border-image: none; width: 70px; height: 25px;">
+															<option value="0">请选择</option>
+														</select>
+														<select name="inv_consignee_district" id="selDistricts" style="border: 1px solid rgb(204, 204, 204); border-image: none; width: 70px; height: 25px;display:none;">
+															<option value="0">请选择</option>
+														</select>
+													</td>
+												</tr>
+												<tr>
+													<td align="right"><em style="color:#e4393c">*</em>详细地址：</td>
+													<td colspan="2"><input name="inv_consignee_address" type="text" class="otherinput2"></td>
+												</tr>
+											</tbody>
+				
+											<tbody id="normal_invoice_tbody" style="display:none">
+												<tr>
+													<td align="right">发票抬头：</td>
+													<td colspan="2">
+														<input id="individual_inv" type="radio" name="inv_payee_type" value="individual" checked="true" style="vertical-align:middle">
+														<label for="individual_inv" style="vertical-align:middle">个人</label>
+														<input id="unit_inv" type="radio" name="inv_payee_type" value="unit" style="vertical-align:middle">
+														<label for="unit_inv" style="vertical-align:middle">单位</label> &nbsp;&nbsp;
+														<input id="ECS_INVPAYEE" name="inv_payee" class="otherinput2" style="display:none; vertical-align:middle" disabled="">
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" class="tdother2">
+									<div class="checkout_other">
+										<a class="jmbag" href="javascript:void(0);""><span>+</span>缺货处理</a>
+										<table class="subbox_other" width="100%">
+											<tbody width="100%" cellpadding="5" cellspacing="0">
+												<tr>
+													<td align="right" width="100">缺货处理：</td>
+													<td colspan="4">
+														<label>
+				                          					<input name="how_oos" type="radio" value="0" checked=""> 等待所有商品备齐后再发
+														</label>
+														<label>
+				                          					<input name="how_oos" type="radio" value="1">取消订单
+														</label>
+														<label>
+				                          					<input name="how_oos" type="radio" value="2">与店主协商
+														</label>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" class="tdother2">
+									<div class="checkout_other">
+										<a class="jmbag" href="javascript:void(0);"><span>+</span>订单附言</a>
+										<table class="subbox_other" width="100%">
+											<tbody width="100%" cellpadding="5" cellspacing="0">
+												<tr>
+													<td align="right" width="100" valign="top">订单附言：</td>
+													<td colspan="4">
+														<textarea name="postscript" cols="80" rows="3" id="postscript" style="border:1px solid #ccc;"></textarea>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" class="tdother2">
+									<div class="allow_user_surplus">
+										<p>
+											<input type="checkbox" id="issurplus" style="vertical-align:middle; cursor:pointer">
+											<span class="is_user_surplus">使用账户余额支付</span>
+										</p>
+										<div id="allow_user_surplus">
+											<span class="surplus_desc">
+												<input name="surplus" type="text" class="surplus" id="ECS_SURPLUS" value="0">&nbsp;&nbsp;元</span> 您当前的可用余额为:
+											<span class="your_surplus">0 </span>
+											<span id="ECS_SURPLUS_NOTICE_157" class="notice"></span>
+											<span class="open_surplus">点此<a href="###" target="_blank">开启余额安全支付</a></span>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="blank10"></div>
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr>
+								<td align="right">
+									<div id="ECS_ORDERTOTAL">
+										<div id="ECS_ORDERTOTAL">
+				
+											<table width="99%" align="center" border="0" cellpadding="1" cellspacing="1" bgcolor="#ffffff">
+				
+												<tbody>
+													<tr>
+														<td align="right" bgcolor="#ffffff">
+															该订单完成后，您将获得
+															<font class="f4_b">0.00</font>的红包。
+														</td>
+													</tr>
+													<tr>
+														<td align="right" bgcolor="#ffffff">
+															商品总价:
+															<font class="f4_b">51.30</font>
+															+ 配送费用:
+															<font class="f4_b">19.00</font>
+														</td>
+													</tr>
+													<tr>
+														<td align="right" bgcolor="#ffffff"> 应付款金额：
+															<font class="f4_b" style="font-size:18px;font-family:微软雅黑;">70.30</font>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="checkBox_jm" id="pay_div">
+					<div class="title">4 支付方式</div>
+					<ul class="payment_tab_jm" id="payment_tab">
+						<li>
+							<label style="cursor:pointer;">
+								<input style="cursor:default;" type="radio" iscod="0" ispickup="" id="alipay_bank_input" name="payment" value="3">
+								<strong></strong> 支付宝网银直连
+							</label>
+							<div class="payment_subbox">
+								<ul>
+									<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="ICBCB2C"><img src="images/10.gif" align="absmiddle"></li></label>
+									<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="CMB"><img src="images/10.gif" align="absmiddle"></li></label>
+									<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="CCB"><img src="images/10.gif" align="absmiddle"></li></label>
+									<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="ABC"><img src="images/10.gif" align="absmiddle"></li></label>
+									<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="COMM"><img src="images/10.gif" align="absmiddle"></li></label>
+									<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="CMBC"><img src="images/10.gif" align="absmiddle"></li></label>
+									<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="BOCB2C"><img src="images/10.gif" align="absmiddle"></li></label>
+									<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="CITIC"><img src="images/10.gif" align="absmiddle"></li></label>
+									<label style="cursor:pointer;">
+										<li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="CEB-DEBIT"><img src="images/10.gif" align="absmiddle"></li>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="CIB"><img src="images/10.gif" align="absmiddle"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="SDB"><img src="images/10.gif" align="absmiddle"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="GDB"><img src="images/10.gif" align="absmiddle"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="BJBANK"><img src="images/10.gif" align="absmiddle"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="SPDB"><img src="images/10.gif" align="absmiddle"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="SHBANK"><img src="images/10.gif" align="absmiddle"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="PSBC-DEBIT"><img align="absmiddle" src="images/10.gif"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="SPABANK"><img align="absmiddle" src="images/10.gif"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="HZCBB2C"><img align="absmiddle" src="images/10.gif"></li></label>
+										<label style="cursor:pointer;"><li><input style="cursor:default;" type="radio"  name="www_68ecshop_com_bank" value="NBBANK"><img align="absmiddle" src="images/10.gif"></li></label>
+									</label>
+								</ul>
+							</div>
+						</li>
+				
+						<li>
+							<label style="cursor:pointer;"><input style="cursor:default;" type="radio" iscod="1" ispickup=""  name="payment" value="6">
+				          	<strong></strong> 货到付款</label>
+						</li>
+				
+						<li>
+							<label style="cursor:pointer;">
+								<input style="cursor:default;" type="radio"  iscod="0" name="payment" id="payment_other_input" value="0"> 支付宝/快钱/财付通/其他支付</label>
+							<div class="payment_subbox">
+								<ul>
+									<label style="cursor:pointer;">
+										<li>
+											<input style="cursor:default;" type="radio" name="payment_other"  value="1">
+											<img align="absmiddle" src="images/pay_alipay.gif" alt="支付宝">
+										</li>
+									</label>
+									<label style="cursor:pointer;">
+										<li>
+											<input style="cursor:default;" type="radio" name="payment_other"  value="5">
+											<img align="absmiddle" src="images/pay_ChinaPay.gif" alt="银联在线">
+										</li>
+									</label>
+									<label style="cursor:pointer;">
+										<li>
+											<input style="cursor:default;" type="radio" name="payment_other"  value="7">
+											<img align="absmiddle" src="images/pay_weixin.gif" alt="微信支付">
+										</li>
+									</label>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="flowBox_jm clearfix" style="border:none;padding-bottom:20px;">
+					<div style="float:left;width:40%;padding:8px 0; padding-left:5px;">
+						<a href="shoppingCart.html" class="continue_buy" style="padding:0;">返回修改购物车</a>
+					</div>
+					<div style="float:right;width:55%;text-align:right;padding:8px 20px;">
+						<input type="image" src="images/btn_done.gif" align="absmiddle">
+						<input name="need_inv" style="display:none;" type="checkbox" class="input" id="ECS_NEEDINV" value="1" checked="true">
+						<input type="hidden" name="step" value="done">
+						<input type="hidden" name="have_consignee" value="0">
+					</div>
+				</div>
+				<div class="blank10"></div>
+			</form>
+		</div>
+		<!--------------侧边栏---------------->
+		<div class="sidebar-nav" style="height:100%;top:0px;bottom:auto;">
+			<div class="mods">
+				<div class="middle-items">
+					<div class="mod_head" id="right_login">
+						<a href="javascript:;" class="btn_head" title="我的用户中心">
+							<img src="images/user_head.png">
+						</a>
+						<div class="dropdown" style="opacity: 1; margin-right: 0px; ">
+							<form name="formLogin" action="" method="">
+								<div class="form">
+									<h2><strong>请登录</strong><span>还没有账号？<a href="javascript:;" class="right_register">立即注册</a></span></h2>
+									<div class="item"> <span class="label">账号</span>
+										<div>
+											<input name="username" type="text" class="text" value="">
+										</div>
+									</div>
+									<div class="item"> <span class="label">密码</span>
+										<div>
+											<input type="password" name="password" class="text">
+										</div>
+									</div>
+									<div class="item " style="display: none;"> <span class="label_t">验证码</span>
+										<div>
+											<input type="text" name="captcha" class="text text-1" >
+											<label class="img">
+												<img src="" alt="captcha" style="vertical-align: middle;cursor: pointer;">
+											</label>
+										</div>
+									</div>
+									<div class="item">
+										<div class="safety">
+											<input type="checkbox" value="1" name="remember" class="checkbox">
+											<label for="remember" class="mar-b">记住密码</label>
+											<a class="javascript:;" href="javascript:;">忘记密码？</a>
+										</div>
+									</div>
+									<div class="item">
+										<input type="hidden" name="act" value="act_login">
+										<input type="hidden" name="back_act" value="">
+										<input type="submit" name="submit" class="btn-img" value="立即登录">
+									</div>
+								</div>
+							</form>
+							<span class="cart_arrow" style="background:none;border:none">
+								<b class="arrow-1"></b> <b class="arrow-2"></b>
+							</span>
+						</div>
+					</div>
+					<div class="mod online-service">
+						<a class="btn" href="javascript:;">在线销售</a>
+						<div class="dropdown" style="opacity: 1; margin-right: 0px; ">
+							<div class="head clearfix">
+					        	<h3 class=".Left">在线销售顾问</h3>
+					        </div>
+					        <div class="button-bar">
+					           <div class="customer_service">
+									<dl class="sidebar_subdl">
+										<dd> <img src="images/web_logo.png" width="30" height="29">
+											<a style="color:#000000; font-size:14px; margin-left:10px; vertical-align:middle" href="javascript:;" alt="点击这里给我发消息" title="点击这里给我发消息">在线客服</a>
+										</dd>
+										<dd> <img src="images/qq1.gif" width="30" height="29">
+											<a style="color:#000000; font-size:14px; margin-left:10px;" href="javascript:;" alt="点击这里给我发消息" title="点击这里给我发消息">客服主管</a>
+										</dd>
+									</dl>
+									<div class="clearbox"></div>
+									<span class="cart_arrow" style="background:none;border:none">
+										<b class="arrow-1"></b> <b class="arrow-2"></b>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mod vote_list">
+						<a class="btn" href="javascript:;">
+							<table>
+					          <tbody>
+					            <tr>
+					              <td><i></i> <em>调 查</em></td>
+					            </tr>
+					            <tr>
+					              <td>在 线<br>调 查</td>
+					            </tr>
+					          </tbody>
+					        </table>
+						</a>
+						<div class="dropdown" style="opacity: 1; margin-right: 0px; ">
+							<div class="head clearfix">
+					        	<h3 class="Left">在线调查问卷</h3>
+					        </div>
+					        <div class="button-bar">
+					       
+							</div>
+							<span class="cart_arrow" style="background:none;border:none">
+								<b class="arrow-1"></b> <b class="arrow-2"></b>
+							</span>
+						</div>
+					</div>
+					<div class="mod reserve" style="height:135px;" id="ECS_CARTINFO">
+						<form id="formCart" name="formCart" method="post" action="">
+							<a href="javascript:;" class="btn" style="height:135px; padding-top:5px; color:#fff;" id="collectBox">
+							  	<i></i> 购<br>物<br>车<br>
+							  	<span style="margin-top:7px;">0</span>
+							</a>
+						  	<div class="dropdown" id="J-flow-drop" style="opacity: 1; margin-right: 0px;"> 
+							    <div class="empty-tip">
+							      	<p></p>
+							      	<p><a href="javascript:;" rel="nofollow">您的购物车里什么都没有哦，再去看看吧</a></p>
+							    </div>
+							    <!--有商品时，购物出生成的html; 
+							    <div class="bar clearfix">
+							    	<div class="tip .Left">共<span class="count">0</span>件宝贝</div>
+							      	<div class="btn-bar .Right"> <a href="javascript:;" class="submit-btn" rel="nofollow">去购物车结算</a> </div>
+							    </div>
+							    <div class="cart_goods">
+								    <div class="cart_goods_list">
+									   	<ul class="unstyled">
+								           <li><a href="javascript:;"><img src="images/thumb_img/139_thumb_G_1452881454307.jpg">
+								        	<h4>优雅100 经典设计款全棉斜纹印花四件套</h4>
+								        	<span>189.0<strong style="margin:0 7px;">×</strong>1</span></a> <i class="del-btn" title="删除" onclick="deleteCartGoods(1422)">×</i></li>
+								        	<li><a href="goods.php?id=137"><img src="images/201601/thumb_img/137_thumb_G_1452880999258.jpg">
+								        	<h4>LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔...</h4>
+								        	<span>399.0<strong style="margin:0 7px;">×</strong>1</span></a> <i class="del-btn" title="删除" onclick="deleteCartGoods(1421)">×</i></li>
+								        </ul>
+								    </div>
+							    </div>
+							    -->
+						    	<span class="cart_arrow"><b class="arrow-1"></b> <b class="arrow-2"></b></span>
+						  	</div>
+						</form>
+      				</div>
+					<div class="mod traffic">
+						<span class="btn">
+					        <table>
+								<tbody>
+									<tr>
+										<td><i></i><em>关 注</em></td>
+									</tr>
+									<tr>
+										<td>
+											<a href="javascript:;" class="btn">关注<br> 店铺</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</span>
+					</div>
+					<div class="mod insure" id="collectGoods">
+						<span class="btn">
+						    <table>
+								<tbody>
+									<tr>
+										<td><i></i> <em>收 藏</em></td>
+									</tr>
+									<tr>
+										<td>
+											<a href="javascript:;" class="btn">收 藏<br> 商 品</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</span>
+					</div>
+					<div class="mod qrcode J-stie-68">
+						<a href="javascript:;" class="btn">
+					        <table>
+								<tbody>
+									<tr>
+										<td><i></i></td>
+									</tr>
+									<tr>
+										<td>官 方<br> 微 信</td>
+									</tr>
+								</tbody>
+							</table>
+						</a>
+						<div class="dropdown  dropdown_t" style="opacity: 1; margin-right: 0px;"><span></span>
+							<p>扫描二维码，码上有礼！</p>
+							<span class="cart_arrow" style="background:none;border:none"><b class="arrow-1"></b> <b class="arrow-2"></b></span>
+						</div>
+					</div>
+					
+				</div>
+				<div class="bottom-items">
+					<div class="mod top disabled">
+						<a href="javascript:;" class="btn">
+				        <table>
+				         	<tbody>
+					            <tr>
+					              	<td><i></i></td>
+					            </tr>
+					            <tr>
+					              	<td>回 到<br> 顶 部</td>
+					            </tr>
+				          	</tbody>
+				        </table>
+				        </a>
+					</div>
+				</div>
+			</div>
+		</div>  
+		
+		<!--*******************底部服务************************* -->
+		<div class="site-footer">
+			<div class="wrapper">
+				<div class="footer-info clearfix">
+				    <div class="info-text">
+						<p>友情链接：
+							<a href="http://www.esoxt.com/" title="邢台亿搜人才网">邢台亿搜人才网</a><span class="sep">|</span>
+							<a href="http://www.hdzxqy.com/" title="邯郸中小企业网">邯郸中小企业网</a><span class="sep">|</span>
+							<a href="http://www.hdeso.com/" title="亿搜人才网">亿搜人才网</a><span class="sep">|</span>
+							<a href="http://www.zhongxianfuwu.com/" title="众贤服务网">众贤服务网</a><span class="sep">|</span>
+							<a href="http://m.kuaidi100.com/" title="快递查询">快递查询</a>
+						</p>
+						<p class="nav_bottom">
+							<a href="javascript:;">关于我们</a><em>|</em>
+							<a href="javascript:;">管理团队</a><em>|</em>
+							<a href="javascript:;">商家入驻</a><em>|</em>
+							<a href="javascript:;">媒体报道</a><em>|</em>
+							<a href="javascript:;">站点地图</a><em>|</em>
+							<a href="javascript:;">招贤纳士</a><em>|</em>
+							<a href="javascript:;">帮助中心</a><em style="display:none">|</em> ICP备案证书号:
+							<a href="http://www.miibeian.gov.cn/">冀ICP备14019346号-1</a>
+						</p>
+						<p>
+							<a href="javascript:;">© 2005-2016 聚惠买商城_河北首家网上商城平台营销服务商 版权所有，并保留所有权利。</a>
+							<a href="javascript:;">石家庄桥西区永安街46号 </a>
+							<a href="javascript:;"> Tel: 400-0310-707 </a>
+							<a href="javascript:;"> E-mail: juhuimai@126.com </a>
+						</p>
+						<p>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

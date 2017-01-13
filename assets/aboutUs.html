@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>关于我们 </title>
+	<link rel="shortcut icon" href="images/animated_favicon.gif" type="image/gif">
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+	<link rel="stylesheet" href="css/user.css">
+	<link rel="stylesheet" href="css/aboutUs.css">
+	<script type="text/javascript" src="js/jq.js"></script>
+	<script type="text/javascript" src="js/tween.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/myTool.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/user.js"></script>
+	<script src="js/aboutUs.js"></script>
+</head>
+<body>
+	<!--*******************顶部菜单栏top_nav************************* -->
+	<div id="top">
+		<div class="top_nav">
+			<ul class="top_nav_region">
+				<b class="fa fa-map-marker"></b>
+				<li class="city">
+					<span class="city_name">邯郸</span>
+					<div class="citydown">
+						<h3 class="curcity">当前城市：<strong>邯郸</strong></h3>
+						<ul class="citydown_ul">
+							<li class="city1"><a href="javascript:;" class="city01">石家庄</a></li>
+							<li class="city2"><a href="javascript:;" class="city02">保定</a></li>
+							<li class="city3">
+								<a href="javascript:;" class="city031">沧州</a>
+								<a href="javascript:;" class="city032">承德</a>
+							</li>
+							<li class="city4">
+								<a href="javascript:;" class="city041">邯郸</a>
+								<a href="javascript:;" class="city042">衡水</a>
+							</li>
+							<li class="city5"><a href="javascript:;" class="city05">廊坊</a></li>
+							<li class="city6"><a href="javascript:;" class="city06">秦皇岛</a></li>
+							<li class="city7"><a href="javascript:;" class="city07">邢台</a></li>
+							<li class="city8"><a href="javascript:;" class="city08">唐山</a></li>
+							<li class="city8"><a href="javascript:;" class="city08">张家口</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="switch-region"><a href="javascript:;">[切换区县]</a></li>
+			</ul>
+			<ul class="top_nav_login">
+				<li><em>欢迎光临本店!</em></li>
+				<li class="login"><a href="log.html">请登录</a></li>
+				<li><a href="reg.html" class="register">免费注册</a></li>
+			</ul>
+			<ul class="top_nav_menu">
+				<li class="myinfo">
+					<a href="javascript:;">我的信息</a><span class="fa fa-angle-down"></span>
+					<div class="infodown">
+						<a href="javascript:;">已买到的宝贝</a>
+						<a href="javascript:;">我的地址管理</a>
+					</div>
+				</li>
+				<li class="myfocus"><span class="fa fa-heart"></span><a href="javascript:;">我关注的店铺</a></li>
+				<li class="shopcart"><span class="fa fa-shopping-cart"></span><a href="javascript:;">购物车</a></li>
+				<li class="favorites">
+					<a href="javascript:;">收藏夹</a><span class="fa fa-angle-down"></span>
+					<div class="favdown">
+						<a href="javascript:;">收藏的宝贝</a>
+						<a href="javascript:;">收藏的店铺</a>
+					</div>
+				</li>
+				<li class="line"></li>
+				<li class="mobile">
+					<span class="fa fa-mobile"></span>
+					<a href="javascript:;">手机版</a>
+					<span class="fa fa-angle-down"></span>
+					<div class="mobdown">
+						<img src="images/app.jpg" alt="手机客户端" style="width:150px;heigth:150px;"/>
+					</div>
+				</li>
+				<li class="sup">
+					<a href="javascript:;">商家支持</a><span class="fa fa-angle-down"></span>
+					<div class="supdown">
+						<ul>
+							<li>
+								<h3>商家</h3>
+								<a href="javascript:;">购物流程</a><a href="javascript:;">售后流程</a>
+								<a href="javascript:;">购物流程</a><a href="javascript:;">售后流程</a>
+								<a href="javascript:;">购物流程</a><a href="javascript:;">售后流程</a>
+								<a href="javascript:;">购物流程</a><a href="javascript:;">售后流程</a>
+								<a href="javascript:;">购物流程</a>
+							</li>
+							<li>
+								<h3>帮助</h3>
+								<a href="javascript:;">帮助中心</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav">
+					<span class="fa fa-list-ul"></span><a href="javascript:;">网站导航</a>
+					<span class="fa fa-angle-down"></span>
+					<div class="navdown">
+						<div class="site-cont hot">
+							<h2>产品分类<span>Product</span></h2>
+							<ul class="site-list">
+								<li><a href="javascript:;">食品生鲜</a></li>
+								<li><a href="javascript:;">服装服饰</a></li>
+								<li><a href="javascript:;">个护化妆</a></li>
+								<li><a href="javascript:;">手机数码</a></li>
+								<li><a href="javascript:;">家用电器</a></li>
+								<li><a href="javascript:;">家纺家居</a></li>
+								<li><a href="javascript:;">酒类饮料</a></li>
+								<li><a href="javascript:;">母婴用品</a></li>
+							</ul>
+						</div>
+						<div class="site-cont market">
+							<h2>店铺街<span>Market</span></h2>
+							<ul class="site-list">
+								<li><a href="javascript:;">精选</a></li>
+								<li><a href="javascript:;">女人</a></li>
+								<li><a href="javascript:;">男人</a></li>
+								<li><a href="javascript:;">家装</a></li>
+								<li><a href="javascript:;">女婴</a></li>
+								<li><a href="javascript:;">美妆</a></li>
+								<li><a href="javascript:;">美食</a></li>
+								<li><a href="javascript:;">数码</a></li>
+							</ul>
+						</div>
+						<div class="site-cont brand">
+							<h2>关于我们<span>About</span></h2>
+							<ul class="site-list">
+								<li><a href="javascript:;">公司简介</a></li>
+								<li><a href="javascript:;">管理团队</a></li>
+								<li><a href="javascript:;">媒体报道</a></li>
+								<li><a href="javascript:;">领导关怀</a></li>
+								<li><a href="javascript:;">招贤纳士</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--*******************顶部搜索框header_search************************* -->
+	<div id="header">
+		<div class="headerLayout">
+			<h1 class="mallLogo">
+				<a href="index.html">
+					<img src="images/logo_hd.jpg" alt="logo" />
+				</a>
+			</h1>
+			<div class="mallSearch">
+				<ul class="mall01">
+					<li class="active1">宝贝</li>
+					<li class="">店铺</li>
+				</ul>
+				<input class="inp" type="text" placeholder="请输入关键词"/>
+				<input class="search" type="button" value="搜索"/>
+				<ul class="mall02">
+					<li class="mall001"><a href="javascript:;">灯饰</a></li>
+					<li class="mall002"><a href="javascript:;">私房菜</a></li>
+					<li class="mall003"><a href="javascript:;">丛台酒</a></li>
+					<li class="mall004"><a href="javascript:;">非凡旅游</a></li>
+					<li class="mall005"><a href="javascript:;">家具</a></li>
+					<li class="mall006"><a href="javascript:;">三星S6</a></li>
+					<li class="mall007"><a href="javascript:;">苹果</a></li>
+				</ul>
+			</div>
+			<div class="header_banner">
+				<a href="#1" title="七天包退"></a>
+				<a href="#1" title="正品保障"></a>
+				<a href="#1" title="闪电发货"></a>
+			</div>
+		</div>
+	</div>
+	<!--*******************全局导航global_nav************************* -->
+	<div class="global_nav">
+		<div class="w">
+			<div class="allgoods">
+				<a class="menuEvent" href="javascript:;">
+					<strong class="catname">全部商品分类</strong>
+					<span class="fa fa-angle-down"></span>
+				</a>
+			</div>
+			<ul class="allmenu">
+				<li class="firstLi"><a href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">食品生鲜</a></li>
+				<li><a href="javascript:;">店铺街</a></li>
+				<li><a href="javascript:;">积分商城</a></li>
+				<li><a href="javascript:;">优惠活动</a></li>
+				<li><a href="javascript:;">智能扫货</a></li>
+				<li><a href="javascript:;">文章资讯</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--*******************全部商品分类all_cats(选项卡)************************* -->
+	<div class="w">
+		<div class="all_cats">
+			<div class="list">
+				<dl class="cat">
+					<dt class="catName">
+						<strong class="cat1 Left">
+							<a href="javascript:;" title="进入食品生鲜频道">食品生鲜</a>
+						</strong>
+						<p>
+							<a href="javascript:;" title="保健食品">保健食品</a>
+							<a href="javascript:;" title="进口水果">进口水果</a>
+							<a href="javascript:;" title="糖果巧克力">糖果巧克力</a> 
+							<a href="javascript:;" title="牛奶乳品">牛奶乳品</a>
+							<a href="javascript:;" title="坚果炒货">坚果炒货</a>
+							<a href="javascript:;" title="蜜饯果干">蜜饯果干</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_1" class="hideMap Map_positon1">
+					<div class="topMap clearfix">
+						<div class="subCat clearfix">
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="保健食品">保健食品：</a>
+								</div>
+								<div class="link1">
+				
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="进口水果">进口水果：</a>
+								</div>
+								<div class="link1">
+				
+									<a href="javascript:;" target="_blank" title="释迦芭乐">释迦芭乐</a>
+				
+									<a href="javascript:;" target="_blank" title="樱桃车厘子">樱桃车厘子</a>
+				
+									<a href="javascript:;" target="_blank" title="芒果桃李">芒果桃李</a>
+				
+									<a href="javascript:;" target="_blank" title="龙眼荔枝">龙眼荔枝</a>
+				
+									<a href="javascript:;" target="_blank" title="小波">小波</a>
+				
+									<a href="javascript:;" target="_blank" title="奇异果猕猴桃">奇异果猕猴桃</a>
+				
+									<a href="javascript:;" target="_blank" title="凤梨蓝莓">凤梨蓝莓</a>
+				
+									<a href="javascript:;" target="_blank" title="榴莲山竹">榴莲山竹</a>
+				
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="糖果巧克力">糖果巧克力：</a>
+								</div>
+								<div class="link1">
+				
+									<a href="javascript:;" target="_blank" title="巧克力">巧克力</a>
+				
+									<a href="javascript:;" target="_blank" title="口香糖">口香糖</a>
+				
+									<a href="javascript:;" target="_blank" title="棒棒糖">棒棒糖</a>
+				
+									<a href="javascript:;" target="_blank" title="软糖">软糖</a>
+				
+									<a href="javascript:;" target="_blank" title="奶糖">奶糖</a>
+				
+									<a href="javascript:;" target="_blank" title="QQ糖">QQ糖</a>
+				
+									<a href="javascript:;" target="_blank" title="果冻">果冻</a>
+				
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="牛奶乳品">牛奶乳品：</a>
+								</div>
+								<div class="link1">
+				
+									<a href="javascript:;" target="_blank" title="常温奶">常温奶</a>
+				
+									<a href="javascript:;" target="_blank" title="乳饮料">乳饮料</a>
+				
+									<a href="javascript:;" target="_blank" title="儿童奶">儿童奶</a>
+				
+									<a href="javascript:;" target="_blank" title="酸奶">酸奶</a>
+				
+									<a href="javascript:;" target="_blank" title="豆奶">豆奶</a>
+				
+									<a href="javascript:;" target="_blank" title="低脂奶">低脂奶</a>
+				
+									<a href="javascript:;" target="_blank" title="全脂奶">全脂奶</a>
+				
+									<a href="javascript:;" target="_blank" title="成人奶粉">成人奶粉</a>
+				
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="坚果炒货">坚果炒货：</a>
+								</div>
+								<div class="link1">
+				
+									<a href="javascript:;" target="_blank" title="核桃">核桃</a>
+				
+									<a href="javascript:;" target="_blank" title="夏威夷果">夏威夷果</a>
+				
+									<a href="javascript:;" target="_blank" title="碧根果">碧根果</a>
+				
+									<a href="javascript:;" target="_blank" title="开心果">开心果</a>
+				
+									<a href="javascript:;" target="_blank" title="腰果">腰果</a>
+				
+									<a href="javascript:;" target="_blank" title="瓜子">瓜子</a>
+				
+									<a href="javascript:;" target="_blank" title="花生">花生</a>
+				
+									<a href="javascript:;" target="_blank" title="杏仁">杏仁</a>
+				
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="蜜饯果干">蜜饯果干：</a>
+								</div>
+								<div class="link1">
+				
+									<a href="javascript:;" target="_blank" title="红枣">红枣</a>
+				
+									<a href="javascript:;" target="_blank" title="莓类">莓类</a>
+				
+									<a href="javascript:;" target="_blank" title="葡萄干">葡萄干</a>
+				
+									<a href="javascript:;" target="_blank" title="芒果干">芒果干</a>
+				
+									<a href="javascript:;" target="_blank" title="香蕉干">香蕉干</a>
+				
+									<a href="javascript:;" target="_blank" title="山楂片">山楂片</a>
+				
+									<a href="javascript:;" target="_blank" title="橄榄">橄榄</a>
+				
+									<a href="javascript:;" target="_blank" title="其他">其他</a>
+				
+								</div>
+							</div>
+				
+						</div>
+						<div class="subBrand">
+							<dl class="categorys-brands">
+								<dt>推荐品牌</dt>
+								<dd>
+									<ul>
+										<li>
+											<a target="_blank" href="javascript:;">三只松鼠</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">楼兰密语</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">百草味</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">三元</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">伊利</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">肯德基</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">必胜客</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">西域美农</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">美赞臣</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">享爱.</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">糖糖屋</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">宝瑞淇</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">费列罗</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">Vega</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">SUNSIDES</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">Sainsbury's</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">圣牧</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">纽麦福</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl class="cat">
+					<dt class="catName"> 
+						<strong class="cat2 Left">
+							<a href="javascript:;" title="进入食品生鲜频道">服装服饰</a>
+						</strong>
+						<p>
+							<a href="javascript:;" title="保健食品">女装馆</a>
+							<a href="javascript:;" title="进口水果">T恤</a>
+							<a href="javascript:;" title="糖果巧克力">中长款半身裙</a> 
+							<a href="javascript:;" title="牛奶乳品">夹克/风衣</a>
+							<a href="javascript:;" title="坚果炒货">男装馆</a>
+							<a href="javascript:;" title="内衣馆">内衣馆</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_2" class="hideMap Map_positon2">
+					<div class="topMap clearfix">
+						<div class="subCat clearfix">
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="女装馆">女装馆：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="连衣裙">连衣裙</a>
+									<a href="javascript:;" target="_blank" title="连体裤">连体裤</a>
+									<a href="javascript:;" target="_blank" title="棉麻T恤">棉麻T恤</a>
+									<a href="javascript:;" target="_blank" title="时尚套装"> 时尚套装</a>
+									<a href="javascript:;" target="_blank" title="复古旗袍">复古旗袍</a>
+									<a href="javascript:;" target="_blank" title="牛仔裤">牛仔裤</a>
+									<a href="javascript:;" target="_blank" title="短外套">短外套</a>
+									<a href="javascript:;" target="_blank" title="羽绒服">羽绒服</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="T恤">T恤：</a>
+								</div>
+								<div class="link1">
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="中长款半身裙">中长款半身裙：</a>
+								</div>
+								<div class="link1">
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="夹克/风衣">夹克/风衣：</a>
+								</div>
+								<div class="link1">
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="男装馆">男装馆：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="牛仔裤">牛仔裤</a>
+									<a href="javascript:;" target="_blank" title="风衣">风衣</a>
+									<a href="javascript:;" target="_blank" title="针织衫">针织衫</a>
+									<a href="javascript:;" target="_blank" title="长袖衬衫">长袖衬衫</a>
+									<a href="javascript:;" target="_blank" title="休闲短裤">休闲短裤</a>
+									<a href="javascript:;" target="_blank" title="POLO衫">POLO衫</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="内衣馆">内衣馆：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="聚拢文胸">聚拢文胸</a>
+									<a href="javascript:;" target="_blank" title="薄款文胸 ">薄款文胸 </a>
+									<a href="javascript:;" target="_blank" title="无钢圈文胸">无钢圈文胸</a>
+									<a href="javascript:;" target="_blank" title="女士内裤">女士内裤</a>
+									<a href="javascript:;" target="_blank" title="男士内裤">男士内裤</a>
+									<a href="javascript:;" target="_blank" title="夏季睡衣">夏季睡衣</a>
+									<a href="javascript:;" target="_blank" title="性感睡衣">性感睡衣</a>
+									<a href="javascript:;" target="_blank" title="瘦腿袜">瘦腿袜</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="户外鞋服">户外鞋服：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="跑步鞋">跑步鞋</a>
+									<a href="javascript:;" target="_blank" title="篮球鞋 ">篮球鞋</a>
+									<a href="javascript:;" target="_blank" title=" 帆布鞋"> 帆布鞋</a>
+									<a href="javascript:;" target="_blank" title="男士皮鞋">男士皮鞋</a>
+									<a href="javascript:;" target="_blank" title=" 沙滩鞋"> 沙滩鞋</a>
+									<a href="javascript:;" target="_blank" title=" 迷彩裤"> 迷彩裤</a>
+									<a href="javascript:;" target="_blank" title="钓鱼服">钓鱼服</a>
+									<a href="javascript:;" target="_blank" title="登山鞋">登山鞋</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="鞋帽">鞋帽：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="高跟凉拖">高跟凉拖</a>
+									<a href="javascript:;" target="_blank" title="平底鞋 ">平底鞋 </a>
+									<a href="javascript:;" target="_blank" title=" 帆布鞋"> 帆布鞋</a>
+									<a href="javascript:;" target="_blank" title="高跟鞋">高跟鞋</a>
+									<a href="javascript:;" target="_blank" title="女士皮鞋"> 女士皮鞋</a>
+									<a href="javascript:;" target="_blank" title="浅口单鞋"> 浅口单鞋</a>
+									<a href="javascript:;" target="_blank" title="坡跟单鞋">坡跟单鞋</a>
+									<a href="javascript:;" target="_blank" title="登山鞋">登山鞋</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="箱包馆">箱包馆：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="单肩女包">单肩女包</a>
+									<a href="javascript:;" target="_blank" title="手提女包 ">手提女包 </a>
+									<a href="javascript:;" target="_blank" title="女士钱包"> 女士钱包</a>
+									<a href="javascript:;" target="_blank" title=" 拉杆包"> 拉杆包</a>
+									<a href="javascript:;" target="_blank" title="女士皮鞋"> 女士皮鞋</a>
+									<a href="javascript:;" target="_blank" title="浅口单鞋"> 浅口单鞋</a>
+									<a href="javascript:;" target="_blank" title="旅行箱 ">旅行箱 </a>
+									<a href="javascript:;" target="_blank" title="拉杆箱">拉杆箱</a>
+								</div>
+							</div>
+						</div>
+						<div class="subBrand">
+							<dl class="categorys-brands">  
+								<dt>推荐品牌</dt>
+								<dd>
+									<ul>
+										<li>
+											<a target="_blank" href="javascript:;">泸州老窖</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">茵曼（INMAN）</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">缪诗</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">伊芙丽</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">达芙妮</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">卓诗尼</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">曼妮芬（ManniForm）</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">溢彩年华</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">佐丹奴</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">七匹狼</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">伊莱克斯</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">雪花</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">其他</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">卡欧澜</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">珂尔妮</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">Grlbobra</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">贵绣</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">艺尔</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl class="cat">
+					<dt class="catName"> 
+						<strong class="cat3 Left">
+							<a href="javascript:;" title="个性化妆">个性化妆</a>
+						</strong>
+						<p>
+							<a href="javascript:;" title="香水彩妆">香水彩妆</a>
+							<a href="javascript:;" title="面部护肤">面部护肤</a>
+							<a href="javascript:;" title="洗发护发">洗发护发</a> 
+							<a href="javascript:;" title="身体护肤">身体护肤</a>
+							<a href="javascript:;" title="口腔护理">口腔护理</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_3" class="hideMap Map_positon3">
+					<div class="topMap clearfix">
+						<div class="subCat clearfix">
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="美容护肤">美容护肤：</a>
+								</div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="香水彩妆">香水彩妆：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title=" 香水">香水</a>
+									<a href="javascript:;" target="_blank" title="底妆 ">底妆</a>
+									<a href="javascript:;" target="_blank" title="腮红">腮红</a>
+									<a href="javascript:;" target="_blank" title=" 眼部"> 眼部</a>
+									<a href="javascript:;" target="_blank" title="唇部">唇部</a>
+									<a href="javascript:;" target="_blank" title="美甲">美甲</a>
+									<a href="javascript:;" target="_blank" title="美容工具">美容工具</a>
+									<a href="javascript:;" target="_blank" title="护肤套装">护肤套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="面部护肤">面部护肤：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="清洁">清洁</a>
+									<a href="javascript:;" target="_blank" title="护肤">护肤</a>
+									<a href="javascript:;" target="_blank" title="面膜">面膜</a>
+									<a href="javascript:;" target="_blank" title="剃须">剃须</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="洗发护发">洗发护发：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="洗发">洗发</a>
+									<a href="javascript:;" target="_blank" title="护发"> 护发 </a>
+									<a href="javascript:;" target="_blank" title="染发">染发</a>
+									<a href="javascript:;" target="_blank" title=" 造型 "> 造型 </a>
+									<a href="javascript:;" target="_blank" title="假发">假发</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">	
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="身体护肤">身体护肤：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="沐浴">沐浴</a>
+									<a href="javascript:;" target="_blank" title="润肤 ">润肤 </a>
+									<a href="javascript:;" target="_blank" title="颈部">颈部</a>
+									<a href="javascript:;" target="_blank" title="手足">手足</a>
+									<a href="javascript:;" target="_blank" title="纤体塑形">纤体塑形</a>
+									<a href="javascript:;" target="_blank" title="美胸">美胸</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="口腔护理">口腔护理：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="牙膏/牙粉 ">牙膏/牙粉 </a>
+									<a href="javascript:;" target="_blank" title="牙刷/牙线">牙刷/牙线</a>
+									<a href="javascript:;" target="_blank" title=" 漱口水 "> 漱口水 </a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+						</div>
+						<div class="subBrand">
+							<dl class="categorys-brands">
+								<dt>推荐品牌</dt>
+								<dd>
+									<ul>
+										<li>
+											<a target="_blank" href="javascript:;">资生堂</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">雅诗兰</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">黛SK-ll</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">相宜本草</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">兰芝</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">罗莱</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">韩束</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">碧欧泉</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">Dior</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">珀莱雅</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">CK</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">chanel</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl class="cat">
+					<dt class="catName"> 
+						<strong class="cat4 Left">
+							<a href="javascript:;" title="手机数码">手机数码</a>
+						</strong>
+						<p>
+							<a href="javascript:;" title="热卖手机">热卖手机</a>
+							<a href="javascript:;" title="数码影音">数码影音</a>
+							<a href="javascript:;" title="洗发护发">洗发护发</a> 
+							<a href="javascript:;" title="身体护肤">身体护肤</a>
+							<a href="javascript:;" title="口腔护理">口腔护理</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_4" class="hideMap Map_positon4">
+					<div class="topMap clearfix">
+						<div class="subCat clearfix">
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="网卡">网卡：</a>
+								</div>
+								<div class="link1">
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="热卖手机">热卖手机：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title=" 香水">香水</a>
+									<a href="javascript:;" target="_blank" title="底妆 ">底妆</a>
+									<a href="javascript:;" target="_blank" title="腮红">腮红</a>
+									<a href="javascript:;" target="_blank" title=" 眼部"> 眼部</a>
+									<a href="javascript:;" target="_blank" title="唇部">唇部</a>
+									<a href="javascript:;" target="_blank" title="美甲">美甲</a>
+									<a href="javascript:;" target="_blank" title="美容工具">美容工具</a>
+									<a href="javascript:;" target="_blank" title="护肤套装">护肤套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="手机配件">手机配件：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="清洁">清洁</a>
+									<a href="javascript:;" target="_blank" title="护肤">护肤</a>
+									<a href="javascript:;" target="_blank" title="面膜">面膜</a>
+									<a href="javascript:;" target="_blank" title="剃须">剃须</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="影音设备">影音设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="洗发">洗发</a>
+									<a href="javascript:;" target="_blank" title="护发"> 护发 </a>
+									<a href="javascript:;" target="_blank" title="染发">染发</a>
+									<a href="javascript:;" target="_blank" title=" 造型 "> 造型 </a>
+									<a href="javascript:;" target="_blank" title="假发">假发</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">	
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="智能设备">智能设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="沐浴">沐浴</a>
+									<a href="javascript:;" target="_blank" title="润肤 ">润肤 </a>
+									<a href="javascript:;" target="_blank" title="颈部">颈部</a>
+									<a href="javascript:;" target="_blank" title="手足">手足</a>
+									<a href="javascript:;" target="_blank" title="纤体塑形">纤体塑形</a>
+									<a href="javascript:;" target="_blank" title="美胸">美胸</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="口腔护理">口腔护理：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="牙膏/牙粉 ">牙膏/牙粉 </a>
+									<a href="javascript:;" target="_blank" title="牙刷/牙线">牙刷/牙线</a>
+									<a href="javascript:;" target="_blank" title=" 漱口水 "> 漱口水 </a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+						</div>
+						<div class="subBrand">
+							<dl class="categorys-brands"> 	
+								<dt>推荐品牌</dt>
+								<dd>
+									<ul>
+										<li>
+											<a target="_blank" href="javascript:;">小米</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">三星</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">苹果</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">vivo</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">锤子</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">洛基亚</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">金立</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">oppo</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl class="cat">
+					<dt class="catName"> 
+						<strong class="cat5 Left">
+							<a href="javascript:;" title="家用电器">家用电器</a>
+						</strong>
+						<p>
+							<a href="javascript:;" title="热卖手机">热卖家电</a>
+							<a href="javascript:;" title="大家电">大家电</a>
+							<a href="javascript:;" title="洗发护发">洗发护发</a> 
+							<a href="javascript:;" title="身体护肤">身体护肤</a>
+							<a href="javascript:;" title="口腔护理">口腔护理</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_5" class="hideMap Map_positon5">
+					<div class="topMap clearfix">
+						<div class="subCat clearfix">
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="大家电">大家电：</a>
+								</div>
+								<div class="link1">
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="大家电">大家电：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title=" 香水">香水</a>
+									<a href="javascript:;" target="_blank" title="底妆 ">底妆</a>
+									<a href="javascript:;" target="_blank" title="腮红">腮红</a>
+									<a href="javascript:;" target="_blank" title=" 眼部"> 眼部</a>
+									<a href="javascript:;" target="_blank" title="唇部">唇部</a>
+									<a href="javascript:;" target="_blank" title="美甲">美甲</a>
+									<a href="javascript:;" target="_blank" title="美容工具">美容工具</a>
+									<a href="javascript:;" target="_blank" title="护肤套装">护肤套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="手机配件">手机配件：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="清洁">清洁</a>
+									<a href="javascript:;" target="_blank" title="护肤">护肤</a>
+									<a href="javascript:;" target="_blank" title="面膜">面膜</a>
+									<a href="javascript:;" target="_blank" title="剃须">剃须</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="影音设备">影音设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="洗发">洗发</a>
+									<a href="javascript:;" target="_blank" title="护发"> 护发 </a>
+									<a href="javascript:;" target="_blank" title="染发">染发</a>
+									<a href="javascript:;" target="_blank" title=" 造型 "> 造型 </a>
+									<a href="javascript:;" target="_blank" title="假发">假发</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">	
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="智能设备">智能设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="沐浴">沐浴</a>
+									<a href="javascript:;" target="_blank" title="润肤 ">润肤 </a>
+									<a href="javascript:;" target="_blank" title="颈部">颈部</a>
+									<a href="javascript:;" target="_blank" title="手足">手足</a>
+									<a href="javascript:;" target="_blank" title="纤体塑形">纤体塑形</a>
+									<a href="javascript:;" target="_blank" title="美胸">美胸</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="口腔护理">口腔护理：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="牙膏/牙粉 ">牙膏/牙粉 </a>
+									<a href="javascript:;" target="_blank" title="牙刷/牙线">牙刷/牙线</a>
+									<a href="javascript:;" target="_blank" title=" 漱口水 "> 漱口水 </a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+						</div>
+						<div class="subBrand">
+							<dl class="categorys-brands"> 	
+								<dt>推荐品牌</dt>
+								<dd>
+									<ul>
+										<li>
+											<a target="_blank" href="javascript:;">小米</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">三星</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">苹果</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">vivo</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">锤子</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">洛基亚</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">金立</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">oppo</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl class="cat">
+					<dt class="catName"> 
+						<strong class="cat6 Left">
+							<a href="javascript:;" title="家居日用">家居日用</a>
+						</strong>
+						<p>
+							<a href="javascript:;" title="热卖手机">热卖家电</a>
+							<a href="javascript:;" title="大家电">大家电</a>
+							<a href="javascript:;" title="洗发护发">洗发护发</a> 
+							<a href="javascript:;" title="身体护肤">身体护肤</a>
+							<a href="javascript:;" title="口腔护理">口腔护理</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_6" class="hideMap Map_positon6">
+					<div class="topMap clearfix">
+						<div class="subCat clearfix">
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="家居日用">家居日用：</a>
+								</div>
+								<div class="link1">
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="大家电">大家电：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title=" 香水">香水</a>
+									<a href="javascript:;" target="_blank" title="底妆 ">底妆</a>
+									<a href="javascript:;" target="_blank" title="腮红">腮红</a>
+									<a href="javascript:;" target="_blank" title=" 眼部"> 眼部</a>
+									<a href="javascript:;" target="_blank" title="唇部">唇部</a>
+									<a href="javascript:;" target="_blank" title="美甲">美甲</a>
+									<a href="javascript:;" target="_blank" title="美容工具">美容工具</a>
+									<a href="javascript:;" target="_blank" title="护肤套装">护肤套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="手机配件">手机配件：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="清洁">清洁</a>
+									<a href="javascript:;" target="_blank" title="护肤">护肤</a>
+									<a href="javascript:;" target="_blank" title="面膜">面膜</a>
+									<a href="javascript:;" target="_blank" title="剃须">剃须</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="影音设备">影音设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="洗发">洗发</a>
+									<a href="javascript:;" target="_blank" title="护发"> 护发 </a>
+									<a href="javascript:;" target="_blank" title="染发">染发</a>
+									<a href="javascript:;" target="_blank" title=" 造型 "> 造型 </a>
+									<a href="javascript:;" target="_blank" title="假发">假发</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">	
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="智能设备">智能设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="沐浴">沐浴</a>
+									<a href="javascript:;" target="_blank" title="润肤 ">润肤 </a>
+									<a href="javascript:;" target="_blank" title="颈部">颈部</a>
+									<a href="javascript:;" target="_blank" title="手足">手足</a>
+									<a href="javascript:;" target="_blank" title="纤体塑形">纤体塑形</a>
+									<a href="javascript:;" target="_blank" title="美胸">美胸</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="口腔护理">口腔护理：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="牙膏/牙粉 ">牙膏/牙粉 </a>
+									<a href="javascript:;" target="_blank" title="牙刷/牙线">牙刷/牙线</a>
+									<a href="javascript:;" target="_blank" title=" 漱口水 "> 漱口水 </a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+						</div>
+						<div class="subBrand">
+							<dl class="categorys-brands"> 	
+								<dt>推荐品牌</dt>
+								<dd>
+									<ul>
+										<li>
+											<a target="_blank" href="javascript:;">小米</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">三星</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">苹果</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">vivo</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">锤子</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">洛基亚</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">金立</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">oppo</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl class="cat">
+					<dt class="catName"> 
+						<strong class="cat7 Left">
+							<a href="javascript:;" title="酒类饮料">酒类饮料</a>
+						</strong>
+						<p>
+							<a href="javascript:;" title="热卖手机">热卖家电</a>
+							<a href="javascript:;" title="大家电">大家电</a>
+							<a href="javascript:;" title="洗发护发">洗发护发</a> 
+							<a href="javascript:;" title="身体护肤">身体护肤</a>
+							<a href="javascript:;" title="口腔护理">口腔护理</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_7" class="hideMap Map_positon7">
+					<div class="topMap clearfix">
+						<div class="subCat clearfix">
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="酒类饮料">酒类饮料：</a>
+								</div>
+								<div class="link1">
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="大家电">大家电：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title=" 香水">香水</a>
+									<a href="javascript:;" target="_blank" title="底妆 ">底妆</a>
+									<a href="javascript:;" target="_blank" title="腮红">腮红</a>
+									<a href="javascript:;" target="_blank" title=" 眼部"> 眼部</a>
+									<a href="javascript:;" target="_blank" title="唇部">唇部</a>
+									<a href="javascript:;" target="_blank" title="美甲">美甲</a>
+									<a href="javascript:;" target="_blank" title="美容工具">美容工具</a>
+									<a href="javascript:;" target="_blank" title="护肤套装">护肤套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="手机配件">手机配件：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="清洁">清洁</a>
+									<a href="javascript:;" target="_blank" title="护肤">护肤</a>
+									<a href="javascript:;" target="_blank" title="面膜">面膜</a>
+									<a href="javascript:;" target="_blank" title="剃须">剃须</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="影音设备">影音设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="洗发">洗发</a>
+									<a href="javascript:;" target="_blank" title="护发"> 护发 </a>
+									<a href="javascript:;" target="_blank" title="染发">染发</a>
+									<a href="javascript:;" target="_blank" title=" 造型 "> 造型 </a>
+									<a href="javascript:;" target="_blank" title="假发">假发</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">	
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="智能设备">智能设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="沐浴">沐浴</a>
+									<a href="javascript:;" target="_blank" title="润肤 ">润肤 </a>
+									<a href="javascript:;" target="_blank" title="颈部">颈部</a>
+									<a href="javascript:;" target="_blank" title="手足">手足</a>
+									<a href="javascript:;" target="_blank" title="纤体塑形">纤体塑形</a>
+									<a href="javascript:;" target="_blank" title="美胸">美胸</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="口腔护理">口腔护理：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="牙膏/牙粉 ">牙膏/牙粉 </a>
+									<a href="javascript:;" target="_blank" title="牙刷/牙线">牙刷/牙线</a>
+									<a href="javascript:;" target="_blank" title=" 漱口水 "> 漱口水 </a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+						</div>
+						<div class="subBrand">
+							<dl class="categorys-brands"> 	
+								<dt>推荐品牌</dt>
+								<dd>
+									<ul>
+										<li>
+											<a target="_blank" href="javascript:;">小米</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">三星</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">苹果</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">vivo</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">锤子</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">洛基亚</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">金立</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">oppo</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl class="cat">
+					<dt class="catName"> 
+						<strong class="cat8 Left">
+							<a href="javascript:;" title="母婴用品">母婴用品</a>
+						</strong>
+						<p>
+							<a href="javascript:;" title="热卖手机">热卖家电</a>
+							<a href="javascript:;" title="大家电">大家电</a>
+							<a href="javascript:;" title="洗发护发">洗发护发</a> 
+							<a href="javascript:;" title="身体护肤">身体护肤</a>
+							<a href="javascript:;" title="口腔护理">口腔护理</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_8" class="hideMap Map_positon8">
+					<div class="topMap clearfix">
+						<div class="subCat clearfix">
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="母婴用品">母婴用品：</a>
+								</div>
+								<div class="link1">
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="大家电">大家电：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title=" 香水">香水</a>
+									<a href="javascript:;" target="_blank" title="底妆 ">底妆</a>
+									<a href="javascript:;" target="_blank" title="腮红">腮红</a>
+									<a href="javascript:;" target="_blank" title=" 眼部"> 眼部</a>
+									<a href="javascript:;" target="_blank" title="唇部">唇部</a>
+									<a href="javascript:;" target="_blank" title="美甲">美甲</a>
+									<a href="javascript:;" target="_blank" title="美容工具">美容工具</a>
+									<a href="javascript:;" target="_blank" title="护肤套装">护肤套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="手机配件">手机配件：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="清洁">清洁</a>
+									<a href="javascript:;" target="_blank" title="护肤">护肤</a>
+									<a href="javascript:;" target="_blank" title="面膜">面膜</a>
+									<a href="javascript:;" target="_blank" title="剃须">剃须</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="影音设备">影音设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="洗发">洗发</a>
+									<a href="javascript:;" target="_blank" title="护发"> 护发 </a>
+									<a href="javascript:;" target="_blank" title="染发">染发</a>
+									<a href="javascript:;" target="_blank" title=" 造型 "> 造型 </a>
+									<a href="javascript:;" target="_blank" title="假发">假发</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">	
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="智能设备">智能设备：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="沐浴">沐浴</a>
+									<a href="javascript:;" target="_blank" title="润肤 ">润肤 </a>
+									<a href="javascript:;" target="_blank" title="颈部">颈部</a>
+									<a href="javascript:;" target="_blank" title="手足">手足</a>
+									<a href="javascript:;" target="_blank" title="纤体塑形">纤体塑形</a>
+									<a href="javascript:;" target="_blank" title="美胸">美胸</a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+							<div class="list1 clearfix" style="border:none">
+								<div class="cat1">
+									<a href="javascript:;" target="_blank" title="口腔护理">口腔护理：</a>
+								</div>
+								<div class="link1">
+									<a href="javascript:;" target="_blank" title="牙膏/牙粉 ">牙膏/牙粉 </a>
+									<a href="javascript:;" target="_blank" title="牙刷/牙线">牙刷/牙线</a>
+									<a href="javascript:;" target="_blank" title=" 漱口水 "> 漱口水 </a>
+									<a href="javascript:;" target="_blank" title="套装">套装</a>
+								</div>
+							</div>
+						</div>
+						<div class="subBrand">
+							<dl class="categorys-brands"> 	
+								<dt>推荐品牌</dt>
+								<dd>
+									<ul>
+										<li>
+											<a target="_blank" href="javascript:;">小米</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">三星</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">苹果</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">vivo</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">锤子</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">洛基亚</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">金立</a>
+										</li>
+										<li>
+											<a target="_blank" href="javascript:;">oppo</a>
+										</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="top">
+			<strong>
+				<a href="javascript:;">帮助中心</a>
+			</strong>
+			> 管理团队
+		</div>
+		<div class="left">
+			<div class="help-side">
+				<div class="current">
+					<h4>
+						<b></b>
+						关于我们
+					</h4>
+					<ul>
+						<li class="li1">隐私保护</li>
+						<li class="li1">公司简介</li>
+						<li class="li1 active-li">管理团队</li>
+						<li class="li1">媒体报道</li>
+						<li class="li1">领导关怀</li>
+						<li class="li1">招贤纳士</li>
+					</ul>
+				</div>
+				<div class="current">
+					<h4>
+						<b></b>
+						新手上路
+					</h4>
+					<ul>
+						<li class="li1">售后流程</li>
+						<li class="li1">购物流程</li>
+						<li class="li1">订购方式</li>
+						<li class="li1">商品评价</li>
+						<li class="li1">在线支付</li>
+					</ul>
+				</div>
+				<div class="current">
+					<h4>
+						<b></b>
+						配送方式
+					</h4>
+					<ul>
+						<li class="li1">货到付款区域</li>
+						<li class="li1">配送查询</li>
+						<li class="li1">配送时间</li>
+						<li class="li1">配送收费标准</li>
+						<li class="li1">上门自提</li>
+					</ul>
+				</div>
+				<div class="current">
+					<h4>
+						<b></b>
+						购物指南
+					</h4>
+					<ul>
+						<li class="li1">常见问题</li>
+						<li class="li1">会员服务</li>
+						<li class="li1">红包使用</li>
+						<li class="li1">返现试用</li>
+					</ul>
+				</div>
+				<div class="current">
+					<h4>
+						<b></b>
+						售后服务
+					</h4>
+					<ul>
+						<li class="li1">退换货原则</li>
+						<li class="li1">售后服务保证</li>
+						<li class="li1">退换货流程</li>
+						<li class="li1">联系客服</li>
+						<li class="li1">商品验收</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<h3 class="help-tit">
+				<strong>管理团队</strong>
+			</h3>
+			<div class="help-box">
+				<p>
+					<img src="images/person1.jpg" alt="">
+					<img src="images/person2.jpg" alt="">
+				</p>
+				<p><br></p>
+				<p><br></p>
+				<p>
+					<img src="images/person3.jpg" alt="">&nbsp;
+					<img src="images/person4.jpg" alt="">&nbsp;
+					<img src="images/person3.jpg" alt="">&nbsp;
+					<img src="images/person4.jpg" alt="">
+				</p>
+				<p><br></p>
+				<p><br></p>
+				<p>
+					<img src="images/person5.jpg" alt="">&nbsp;
+					<img src="images/person5.jpg" alt="">&nbsp;
+					<img src="images/person7.jpg" alt="">&nbsp;
+					<img src="images/person7.jpg" alt="">&nbsp;
+					<img src="images/person7.jpg" alt="">&nbsp;
+					<img src="images/person6.jpg" alt="">
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--*******************底部服务************************* -->
+	<div class="site-footer">
+		<div class="wrapper">
+			<div class="footer-links clearfix"> 
+				<dl class="col-links col-links-first">
+					<dt>关于我们 </dt>
+					<dd><a  href="javascript:;">隐私保护</a></dd>
+					<dd><a  href="javascript:;">公司简介</a></dd>
+					<dd><a  href="javascript:;">管理团队</a></dd>
+					<dd><a  href="javascript:;">媒体报道</a></dd>
+					<dd><a  href="javascript:;">领导关怀</a></dd>
+					<dd><a  href="javascript:;">招贤纳士</a></dd>
+				  </dl>
+				<dl class="col-links ">
+					<dt>新手上路 </dt>
+					<dd><a href="javascript:;">售后流程</a></dd>
+					<dd><a href="javascript:;">购物流程</a></dd>
+					<dd><a href="javascript:;">订购方式</a></dd>
+					<dd><a href="javascript:;">商品评价</a></dd>
+					<dd><a href="javascript:;">在线支付</a></dd>
+				</dl>
+				<dl class="col-links ">
+					<dt>配送方式 </dt>
+					<dd><a href="javascript:;">货到付款区域</a></dd>
+					<dd><a href="javascript:;">配送查询</a></dd>
+					<dd><a href="javascript:;">配送时间</a></dd>
+					<dd><a href="javascript:;">配送收费标准</a></dd>
+					<dd><a href="javascript:;">上门自提</a></dd>
+				</dl>
+				<dl class="col-links ">
+					<dt>购物指南</dt>
+					<dd><a href="javascript:;">常见问题</a></dd>
+					<dd><a href="javascript:;">会员服务</a></dd>
+					<dd><a href="javascript:;">红包使用</a></dd>
+					<dd><a href="javascript:;">返现使用</a></dd>
+				</dl>
+				<dl class="col-links ">
+					<dt>售后服务</dt>
+					<dd><a href="javascript:;">退换货原则</a></dd>
+					<dd><a href="javascript:;">售后服务保证</a></dd>
+					<dd><a href="javascript:;">退换货流程</a></dd>
+					<dd><a href="javascript:;">联系客服</a></dd>
+					<dd><a href="javascript:;">商品验收</a></dd>
+				</dl>
+				<div class="col-contact">
+					<p class="phone">400-0310-707</p>
+					<p>周一至周五 9:00-17:30<br>（仅收市话费）</p>
+					<a class="btn-primary btn-small" href="javascript:;" style="color:#fff">24小时在线客服</a>
+				</div>
+			</div>
+			<div class="footer-info clearfix">
+				<div class="info-text">
+					<p>友情链接：
+						<a href="http://www.esoxt.com/" title="邢台亿搜人才网">邢台亿搜人才网</a><span class="sep">|</span>
+						<a href="http://www.hdzxqy.com/" title="邯郸中小企业网">邯郸中小企业网</a><span class="sep">|</span>
+						<a href="http://www.hdeso.com/" title="亿搜人才网">亿搜人才网</a><span class="sep">|</span>
+						<a href="http://www.zhongxianfuwu.com/" title="众贤服务网">众贤服务网</a><span class="sep">|</span>
+						<a href="http://m.kuaidi100.com/" title="快递查询">快递查询</a>
+					</p>
+					<p class="nav_bottom">
+						<a href="javascript:;">关于我们</a><em>|</em>
+						<a href="javascript:;">管理团队</a><em>|</em>
+						<a href="javascript:;">商家入驻</a><em>|</em>
+						<a href="javascript:;">媒体报道</a><em>|</em>
+						<a href="javascript:;">站点地图</a><em>|</em>
+						<a href="javascript:;">招贤纳士</a><em>|</em>
+						<a href="javascript:;">帮助中心</a><em style="display:none">|</em> ICP备案证书号:
+						<a href="http://www.miibeian.gov.cn/">冀ICP备14019346号-1</a>
+					</p>
+					<p>
+						<a href="javascript:;">© 2005-2016 聚惠买商城_河北首家网上商城平台营销服务商 版权所有，并保留所有权利。</a>
+						<a href="javascript:;">石家庄桥西区永安街46号 </a>
+						<a href="javascript:;"> Tel: 400-0310-707 </a>
+						<a href="javascript:;"> E-mail: juhuimai@126.com </a>
+					</p>
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

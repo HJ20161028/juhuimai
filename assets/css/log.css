@@ -1,0 +1,67 @@
+#entry h2 {
+    height: 30px;
+    line-height: 30px;
+}
+#entry .text, #entry1 .text {
+    width: 288px;
+}
+#entry h2 span, #regist .form h2 span {
+    font-size: 12px;
+    float: right;
+    font-weight: normal;
+}
+#entry h2 span a, #regist .form h2 span a {
+    color: #E4393C;
+}
+#entry .safety {
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+#entry .safety .checkbox {
+    vertical-align: middle;
+}
+#entry .checkbox {
+    margin-top: 7px;
+}
+#entry .safety .mar-b {
+    height: 26px;
+    line-height: 26px;
+    margin-left: 5px;
+}
+#entry .safety .forget_password {
+    float: right;
+    text-decoration: none;
+    margin-top: -2px;
+}
+#entry .btn-entry, #entry .btn-img {
+    width: 300px;
+    height: 35px;
+    font-size: 14px;
+    color: #FFF;
+    background: #E4393C;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border: none;
+}
+.item table td a i {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.item table td a i.weixin {
+    background-position: -170px -40px;
+}
+.item table td a i.qq {
+    background-position: -9px -40px;
+}
+.item table td a i.sina {
+    background-position: -62px -40px;
+}
+.item table td a i.alipay {
+    background-position: -123px -40px;
+}

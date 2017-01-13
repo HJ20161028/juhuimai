@@ -1,0 +1,216 @@
+.blank10 {
+    height: 18px;
+    line-height: 18px;
+    clear: both;
+    visibility: hidden;
+    background: #fff;
+}
+img{display:inline-block;}
+.flowstep .step-done .step-no {
+    background-position: 50% -170px;
+}
+.checkBox_jm {
+    width: 950px;
+    border-top: 1px solid #ccc;
+    background: #fff;
+    padding: 15px 20px 20px 20px;
+    margin: 0 auto;
+}
+.checkBox_jm .title {
+    font-size: 19px;
+    font-family: "Microsoft YaHei", 微软雅黑;
+    font-weight: bold;
+}
+.address_jm {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.input_addr2 {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 5px;
+    border: 1px #ddd solid;
+}
+.input_addr1 {
+    width: 477px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px;
+    border: 1px #ddd solid;
+}
+.input_addr3 {
+    width: 100px;
+    height: 25px;
+    padding: 0px 5px;
+    border: 1px #ddd solid;
+}
+.input_addr4 {
+    width: 50px;
+    height: 25px;
+    padding: 0px 5px;
+    border: 1px #ddd solid;
+}
+.BonusButton {
+    background: #e31939;
+    color: #fff;
+    height: 28px;
+    width: 70px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.checkBox_jm .title {
+    font-size: 19px;
+    font-family: "Microsoft YaHei", 微软雅黑;
+    font-weight: bold;
+}
+.songhuo {
+    padding-left: 20px;
+    color: #a1a1a1;
+    font-size: 14px;
+    font-family: 宋体;
+    font-weight: normal;
+}
+.timebox ul {
+    float: left;
+    padding-top: 15px;
+}
+.timebox ul li {
+    float: left;
+    margin-right: 20px;
+    padding: 1px 0px 1px 15px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.timebox ul li.curr, .timebox ul li.curr2 {
+    background: #e6f6de;
+    padding: 0px 0px 0px 15px;
+    border: 2px solid #6eaf4f;
+}
+.timebox ul li label {
+    padding: 10px 15px 10px 0px;
+}
+.timebox ul li input {
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.seltimebox {
+    position: absolute;
+    background: #fff;
+    top: 32px;
+    left: -1px;
+    z-index: 999;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: auto;
+    display: none;
+}
+.seltimebox table tr td {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    line-height: 16px;
+}
+.checkgoods th {
+    background: #f0f0f0;
+    padding: 8px 10px;
+    font-weight: normal;
+}
+.checkgoods .tdone {
+    padding-left: 33px;
+}
+.checkgoods {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.checkgoods td {
+    background: #fff;
+    padding: 15px 10px;
+    border-top: 1px dotted #e2e2e2;
+}
+.checkgoods td.shipping_type {
+    padding: 12px 0 12px 30px;
+}
+.checkgoods td.shipping_type {
+    line-height: 35px;
+}
+.checkgoods td.shipping_type ul {
+    float: left;
+    display: inline-block;
+}
+.shipping_jm {
+    overflow: hidden;
+}
+.shipping_jm .shipping_type {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 2px 20px;
+    border: 1px #ddd solid;
+}
+.shipping_jm .shipping_type.shipping_type_curr {
+    border: 1px #E31939 solid;
+}
+.checkgoods .shipping_desc {
+    clear: both;
+    margin-top: 10px;
+    color: #999999;
+}
+.checkout_other, .checkout_other2 {
+    font-size: 13px;
+}
+.checkout_other .subbox_other {
+    display: none;
+}
+.jmbag {
+    color: #E31939;
+    text-decoration: none;
+}
+.jmbag span {
+    padding: 2px 6px;
+    margin-right: 6px;
+    background: #E31939;
+    color: #fff;
+}
+.checkgoods .tdother2 {
+    padding: 15px 30px;
+    background: #fafafa;
+    border-top: 1px solid #ddd;
+}
+.payment_subbox {
+    display: none;
+}
+.payment_subbox ul li {
+    float: left;
+    margin: 10px 15px 0 0;
+    padding: 0 10px;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+}
+.payment_subbox ul li input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+.payment_tab_jm {
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.payment_tab_jm li {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 15px 15px 25px 15px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+}
+#allow_user_surplus {
+    float: left;
+    margin-left: 20px;
+    display: none;
+}

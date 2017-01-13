@@ -1,0 +1,13 @@
+$(function(){
+	//全部商品分类，划上.menuEvent,显示.all_cats;划上自身显示，离开隐藏；
+	$(".menuEvent").hover(function(){
+		$(".all_cats").show();
+	},function(){
+		$(".all_cats").hide();
+	});
+	$(".all_cats").hover(function(){
+		$(this).show();
+	},function(){
+		$(this).hide();
+	});
+})

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户中心_聚惠买商城_河北首家网上商城平台营销服务商  </title>
+		<link rel="shortcut icon" href="images/animated_favicon.gif" type="image/gif">
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reg.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+		<script type="text/javascript" src="js/jq.js"></script>
+		<script type="text/javascript" src="js/tween.js"></script>
+		<script type="text/javascript" src="js/myTool.js"></script>
+		<script src="js/reg.js"></script>
+	</head>
+	<body>
+		<!--注册页顶部-->
+		<div class="Logo-r">
+			<div class="Logo-info-r">
+				<a href="index.html" class="logo"></a>
+				<span class="findpw">欢迎注册</span>
+				<a href="http://e.t.qq.com/ecshop_moban" class="qq"></a> 
+				<a href="http://weibo.com/345752687" class="sina"></a> 
+				<span href="javascript:void(0)" class="weixin"></span>
+			</div>
+		</div>
+		<div class="blank"></div>
+		<div class="blank"></div>
+		<!--注册主体-->
+		<div class="w">
+		<div class="w" id="regist">
+			<div class="mcon register_con" style="height: 454px;">
+				<div id="reg-pic" class="box-pic "></div>
+				<div id="login-box" class="uc_box ">
+                	<form action="" method="post" id="formRegister" name="formRegister">
+                        <input type="hidden" id="register_type" name="register_type" value="${register_type}">
+                        <ul class="register_tab">
+                            <li id="li_register_type_mobile" class="tab_item Left cur" register_type="mobile">手机注册<span class="bg_ff"></span></li>
+                            <li id="li_register_type_email" class="tab_item Left" register_type="email">邮箱注册<span class="bg_ff"></span></li>
+                            <li class="have_account Right">已有账号！<a href="log.html">登录</a></li>
+                        </ul>
+                    </form>
+					<form action="" method="post" id="formUser" name="formUser">
+						<div class="form">
+							<input type="hidden" name="register_type" value="mobile">
+							<div class="item">
+								<input name="mobile_phone" type="text" id="mobile_phone" placeholder="手机" class="text">
+								<i class="i-phone"></i>
+								<div>
+									<span class="label" id="mobile_phone_notice"></span>
+								</div>
+							</div>
+							<div id="o-password">
+								<div class="item">
+									<input name="password" type="password" id="password" placeholder="密码" class="text">
+									<i class="i-pass"></i>
+									<div id="pwd_notice" style="display: none;">
+										<span class="label" id="password_notice"></span>
+									</div>
+									<div id="pwd_intensity">
+										<span class="label">
+											<table width="295" height="25px" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 0px 10px;">
+												<tbody>
+													<tr align="center">
+														<td width="33%" id="pwd_lower">弱</td>
+														<td width="33%" id="pwd_middle">中</td>
+														<td width="33%" id="pwd_high">强</td>
+													</tr>
+												</tbody>
+											</table>
+										</span>
+									</div>
+								</div>
+								<div class="item">
+									<input type="password" id="conform_password" name="confirm_password" class="text" placeholder="确认密码" autocomplete="off">
+									<i class="i-pass"></i>
+									<div>
+										<span class="label" id="conform_password_notice"></span>
+									</div>
+								</div>
+							</div>					
+							<div class="item" style="margin-bottom: 30px;">
+								<input id="mobile_code" class="text text_te" type="text" placeholder="验证码" name="mobile_code">
+								<i class="i-phone"></i>
+								<input id="zphone" class="zphone" type="button" value="获取验证码 "><strong id="randomW"></strong>
+								<div class="Left" style="width:300px;">
+									<span id="extend_field5i" class="label"></span>
+								</div>
+							</div>					
+							<div class="item item_t">
+								<div class="safety">
+									<input name="agreement" type="checkbox" value="1" checked="checked" class="checkbox">
+									<label for="remember" class="mar-b">我已看过并接受《<a href="javascript:;" style="color:blue" target="_blank">用户协议</a>》</label>
+								</div>
+							</div>
+							<div class="item">
+								<input name="act" type="hidden" value="register">
+								<input type="hidden" name="back_act" value="user.php">
+								<input type="button" id="btn_submit" name="Submit" class="btn-img btn-regist" value="立即注册">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>	
+		<div class="blank"></div>
+	</div>
+		<!--底部-->
+		<div class="site-footer">
+			<div class="wrapper">
+				<div class="footer-info clearfix">
+					<div class="info-text">
+						<p class="nav_bottom">
+							<a href="/help.php?id=24">关于我们</a><em>|</em>
+							<a href="/help.php?id=25">管理团队</a><em>|</em>
+							<a href="apply_index.php">商家入驻</a><em>|</em>
+							<a href="/help.php?id=26">媒体报道</a><em>|</em>
+							<a href="/data/sitemaps.xml">站点地图</a><em>|</em>
+							<a href="/help.php?id=76">招贤纳士</a><em>|</em>
+							<a href="help.php">帮助中心</a><em style="display:none">|</em>
+							ICP备案证书号:<a href="http://www.miibeian.gov.cn/" target="_blank">冀ICP备14019346号-1</a>
+						</p>
+						<p>
+							<a href="javascript:;">© 2005-2016 聚惠买商城_河北首家网上商城平台营销服务商 版权所有，并保留所有权利。</a> <a href="javascript:;">石家庄桥西区永安街46号 </a>
+							<a href="javascript:;">      Tel: 400-0310-707      </a>
+							<a href="javascript:;">      E-mail: juhuimai@126.com      </a>
+						</p>
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

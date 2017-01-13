@@ -1,0 +1,63 @@
+/* meng 增加酒 开始*/
+.Lay_2 { position:relative; }
+.Lay_2 .titieBox  ul{float:left;}
+.Lay_2 .titieBox li{float:left;  font-size:16px; width:90px; height:43px; line-height:43px; text-align:center; margin-right:15px; cursor:pointer; font-family:"微软雅黑";overflow:hidden;}
+.Lay_2 .titieBox .on{ color:#dd102e;}
+.Lay_2 .titleSlider{ border-bottom:2px solid #dd102e; height:7px; position:absolute; left:0px; width:90px; top:36px; text-align:center; z-index:1; overflow:hidden;}
+.Lay_2 .titleSlider b{ border-width:10px; border-style:dashed dashed solid;border-color:transparent transparent #dd102e; display:inline-block; overflow:hidden; font-size:0; height:0; width:0; margin-top:-8px;}
+.Lay_2 .logoBox{position:relative; width:968px; height:274px;border:1px solid #ededed; background:#fff; padding:15px; overflow:hidden; }
+.Lay_2 .logoBox .arrow{position:absolute; top:130px; width:50px; height:50px; z-index:1; cursor:pointer; display: block;}
+.Lay_2 .logoBox .prevPage { background-position:0 -130px; left:8px;}
+.Lay_2 .logoBox .nextPage{ background-position:-56px -130px; right:8px; }
+.Lay_2 .logoAll{ position:relative; height:274px;display:none;}
+.Lay_2 .logoAll ul{ float:left; width:985px; height:274px;position:relative;}
+.Lay_2 .logoAll li{ float:left;width:180px; height:80px; position:relative; margin:0 17px 17px 0; overflow:hidden;}
+.Lay_2 .logoAll li i.my_Attention{position:absolute; display:inline-block; width:20px; height:20px; right:10px; top:5px; background-position:-64px -10px; }
+.Lay_2 .logoAll li i.my_Attentioned{ background-position:-38px -10px;}
+.Lay_2 .logoAll li i{ display:none;}
+.Lay_2 .logoFirst{width:1170px; height:274px;overflow:hidden;}
+.Lay_2 .logoFirstbd{width:10000px;}
+.Lay_2 .logoFirstbd ul{width:985px;position:relative;margin-left:0;}
+.Lay_2 .logoFirst{width:1170px; height:274px;overflow:hidden;}
+.Lay_2 .logoFirstbd{width:10000px;}
+.Lay_2 .logoFirstbd ul{width:985px;position:relative;margin-left:0;}
+
+.newIndexIcon{ background: url(../images/newIndexIcon-24.png);}
+ 
+.mt10{ margin-top:10px;}
+
+.clearfix:after{clear:both;display:block;content:"...";visibility:hidden;height:0;font-size:0;}
+.clearfix{*zoom:1}
+
+/*列表样式*/
+.mainBox{width:1200px;}
+.ban_cter{ width:1200px;}
+.indexTabBox,.indexTabNav{ width:920px;}
+.indexTabNav li{ width:183px;}
+.indexTabNav .n2{ left:184px;}
+.indexTabNav .n3{ left:368px;}
+.indexTabNav .n4{ left:552px; width:183px;}
+.indexTabNav .n5{ left:736px; width:182px;}
+.indexTabNav .on{ width:183px;}
+.indexTabCon{ width:910px;}
+.indexTabCon li{ width:182px;}
+.indexTabCon li .indexTabPic{ heigth:160px;padding:0 11px;}
+.indexTabCon li .indexTabTit,.indexTabCon li .indexTabPrice{ padding:0 6px;}
+.storeList{ width:1199px;}
+.raceList{ width:1188px; padding:0 5px;}
+.raceList li{ width:198px;}
+.raceListWrap{ width:1198px;}
+.indexAdRight{  left:700px;}
+.spiritList{ width:988px;}
+.topTenBox,.topTenCon,.topTenConWrap{ width:985px;}
+.goods_mnudl{ overflow:hidden; zoom:1; width:1190px;}
+.goods_mnudl dt{ width:87px; padding:10px 0 0 20px;}
+.goods_mnudl .goods_mnudtit4{ padding:10px 0 0 19px; width:88px;}
+.goods_mnudl dd.goods_mnudd1,.goods_mnudl dd.goods_mnudd2{ padding:5px 8px; width:463px;}
+.goods_mnudl dd p a{ padding:0 8px;}
+.topRight li a{ padding:0 5px;}
+.Lay_2 .logoBox{ width:1168px;}
+.Lay_2 .logoAll ul{ width:1185px;}
+.spiritWrap{ width:1198px;}
+
+/* meng 增加酒 结束*/

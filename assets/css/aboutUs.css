@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,span,form,fieldset,legend,img{margin:0;padding:0;}
+fieldset,img{border:none;}
+img{display:block;}
+i,em{font-style:normal;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+ul,ol{list-style:none;} 
+body{color:#666; font: 12px/150% microsoft yahei;/*font-family:"宋体","楷体","Arial Narrow";*/ }
+a{color:#999;text-decoration:none;}
+a:hover{color: #E4393C; text-decoration: underline;} 
+/*--------------------------公共样式-------------------------------------------*/
+.main{
+	width: 1210px;
+    margin: 0 auto;
+	overflow: hidden;
+}
+.main .top{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.top strong{
+	font-weight: 400;
+	font-size: 1em;
+}
+.top strong a{
+	color: #005ea7;
+}
+
+.main .left{
+	width: 210px;
+    overflow: hidden;
+    margin-right: 10px;
+    float: left;
+    padding-bottom: 5px;
+}
+.left .help-side{
+	border: 1px solid #b9e8f9;
+}
+.help-side h4{
+	background: #eff9fe;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 25px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+	border-bottom: 0;
+}
+.help-side>div h4 b{
+	float: right;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    background:url(../images/help.png) no-repeat -1px -15px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 7px 10px 0 0;
+}
+.help-side .current h4 b{
+	background-position: -1px -1px;
+}
+.help-side ul{
+	display: block;
+}
+.help-side ul li{
+	padding-left: 32px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    border-top: medium none;
+    background:url(../images/help.png) no-repeat 0px -67px;
+	color: #2398d1;
+	cursor: pointer;
+}
+
+.help-side ul .active-li{
+	background-position: 0px -99px;
+    color: #cc0000;
+}
+
+.help-side ul li:hover{
+	color: #f00;
+}
+
+.main .right{
+	width: 980px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 150%;
+}
+.right h3{
+	background:url(../images/help.png) no-repeat 0px -31px;
+    background-repeat: repeat-x;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 9px;
+}
+.right h3 strong{
+	float: left;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    font-size: 16px;
+    color: #138bc5;
+    font-family: "microsoft yahei";
+	font-weight: 400
+}
+.right .help-box{
+	padding: 10px 10px 10px 20px;
+}
+.help-box p{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    white-space: normal;
+    padding: 0px;
+    color: rgb(102, 102, 102);
+    font-family: Arial, Verdana, 'microsoft yahei';
+    font-size: 12px;
+    line-height: 18px;
+	background: #fff;
+}
+.help-box p img{
+	border: medium none;
+    margin: 10px;
+	display: inline-block;
+}

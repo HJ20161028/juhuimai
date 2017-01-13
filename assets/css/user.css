@@ -1,0 +1,687 @@
+.all_cats{display:none;}
+/*左侧导航栏*/
+.breadcrumb i{
+	background: transparent url(../images/user_header.png) no-repeat;
+}
+.breadcrumb i {
+    background-position: -427px -208px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.block {
+    width: 1210px;
+    overflow: hidden;
+    padding: 0px;
+    background: #fff;
+    height: auto;
+    margin: 0 auto;
+}
+.AreaL {
+    width: 210px;
+    float: left;
+}
+.box {
+    padding-bottom: 2px;
+    overflow: hidden;
+}
+.AreaL .sideNav {
+    width: 210px;
+    height: 183px;
+    display: inline-block;
+    overflow: hidden;
+}
+.sideNav h1 {
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ED5854;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+.sideNav h1 span {
+    display: inline-block;
+    color: #fff;
+    text-indent: 20px;
+}
+.sideNav .userInfo {
+    width: 210px;
+    height: 130px;
+    padding-top: 13px;
+    background: url(../images/userinfo_bg.png) no-repeat;
+    overflow: hidden;
+}
+.userInfo .myInfo {
+    width: 210px;
+    height: 80px;
+    margin-bottom: 12px;
+    float: left;
+}
+.userInfo .myInfo .photo {
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 0 15px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.userInfo .myInfo .photo .mask {
+    width: 80px;
+    height: 80px;
+    background: url(../images/mask.png) no-repeat 0 0;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.myInfo .info_op {
+    width: 80px;
+    height: 80px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+}
+.myInfo .info_op ul {
+    width: 80px;
+    height: 80px;
+}
+.myInfo .info_op ul li {
+    float: left;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: :;
+}
+.userInfo .cost {
+    margin-left: 18px;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 14px;
+    color: #ED5854;
+    font-weight: bold;
+}
+.navList {
+    width: 210px;
+    height: 814px;
+    background-color: #fbfbfb;
+    overflow: hidden;
+}
+.navList .func {
+    margin-left: 30px;
+    clear: both;
+    height: auto;
+}
+.func .title {
+    height: 22px;
+    width: 168px;
+    margin: 11px 0;
+}
+.func .item {
+    width: 109px;
+    height: 30px;
+    display: block;
+    padding: 0 28px 0 31px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.func .item:hover {
+    background: #f0f0f0;
+}
+.func .item.curs {
+    color: #E31939;
+}
+.func .item i {
+    width: 5px;
+    height: 9px;
+    margin-top: 10px;
+    background: url(../images/user.png) no-repeat -200px 0;
+    float: right;
+    display: inline-block;
+}
+.func .item span {
+    float: left;
+    display: inline-block;
+}
+.func .title i {
+    margin-top: 2px;
+    margin-right: 11px;
+    background: url(../images/user.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.func.func1 .title i {
+    width: 21px;
+    height: 17px;
+    background-position: -129px 0;
+}
+.func.func2 .title i {
+    margin-right: 12px;
+    width: 19px;
+    height: 17px;
+    background-position: -61px 0;
+}
+.func.func3 .title i {
+    margin-right: 9px;
+    width: 18px;
+    height: 18px;
+    background-position: -96px 0;
+}
+/*右侧导航栏*/
+.money li .pic i, .account .middle i.user_bg, .pic-model div.favorite-goods-info dd.hover_tan i, #safe05 .fore1 s, h5.user-title-t span i {
+    background: url(../images/user_center.png) no-repeat;
+}
+.AreaR {
+    width: 1000px;
+    float: right;
+    overflow: hidden;
+}
+.usBox_y .account {
+    width: 1000px;
+    height: auto;
+    border-top: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+}
+.account .money {
+    height: 110px;
+    padding: 20px 0 18px 0;
+    border-bottom: 1px solid #e4e4e4;
+    float: left;
+}
+.money li {
+    width: 230px;
+    height: 110px;
+    border-left: 1px dotted #e4e4e4;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+.money li.first {
+    width: 230px;
+    border-left: none;
+}
+.money li .title {
+    height: 24px;
+    margin-bottom: 8px;
+}
+.money li .title span {
+    margin-top: 2px;
+    font-size: 14px;
+    display: inline-block;
+}
+.money li .pic {
+    height: 32px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.money li .pic i {
+    height: 32px;
+    margin-top: 2px;
+    display: inline-block;
+}
+.money li.first .pic i {
+    width: 32px;
+    height: 32px;
+    background-position: 0px -45px;
+}
+.money li p {
+    text-align: center;
+    color: #333;
+    font-family: "Microsoft Yahei";
+}
+.money li p a, .money li p span._goldAccount {
+    font-size: 18px;
+    margin: 0px 5px;
+    color: #FF875C;
+}
+.money li.second .pic i {
+    width: 32px;
+    height: 32px;
+    background-position: 0px -145px;
+}
+.money li.third .pic i {
+    width: 32px;
+    height: 32px;
+    background-position: 0px -98px;
+}
+.money li.first:hover .pic i {
+    width: 32px;
+    height: 32px;
+    background-position: -50px -45px;
+}
+.money li.second:hover .pic i {
+    width: 32px;
+    height: 32px;
+    background-position: -50px -145px;
+}
+.money li.third:hover .pic i {
+    width: 32px;
+    height: 32px;
+    background-position: -49px -98px;
+}
+.account .security {
+    width: 306px;
+    height: 148px;
+    float: left;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+.security .improve {
+    width: 245px;
+    margin-left: 30px;
+    margin-top: 17px;
+    float: left;
+    display: inline-block;
+}
+.improve strong, .improve i, .improve p {
+    float: left;
+}
+.improve p {
+    width: 245px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.improve strong.low {
+    color: #f42f2f;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.improve i {
+    width: 150px;
+    height: 11px;
+    background: url(../images/user.png) no-repeat -278px -133px;
+    margin: 6px 3px 5px;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.improve i.danger em {
+    width: 15px;
+}
+.improve i em {
+    width: 150px;
+    height: 11px;
+    background: url(../images/user.png) no-repeat -278px -118px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.improve a {
+    color: #0066cc;
+    margin-left: 6px;
+    overflow: hidden;
+    width: 37px;
+    height: 18px;
+}
+.security .yzHome {
+    float: left;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 265px;
+}
+.yzType .titIcon {
+    display: inline-block;
+    background: url(../images/user.png) no-repeat;
+    margin-right: 5px;
+}
+.yzHome .yzType {
+    float: left;
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.yzType.phone {
+    margin-right: 20px;
+}
+.yzType.phone .titIcon {
+    width: 12px;
+    height: 16px;
+    background-position: -372px 0;
+    margin-top: 4px;
+}
+.yzType .res {
+    color: #FF966E;
+    border: 1px solid #fff;
+    padding: 3px;
+    margin-top: -4px;
+    position: relative;
+    background-color: #fff;
+}
+.yzType .titIcon, .yzType .yzTit, .yzType .res {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+.account .order {
+    float: left;
+    width: 692px;
+    height: 308px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.middle .line1 {
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+}
+.middle .line1 .title {
+    display: inline-block;
+}
+.middle .line1 .title i {
+    width: 4px;
+    height: 18px;
+    line-height: 35px;
+    display: inline-block;
+    background-color: #FD6760;
+    margin-left: 13px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.middle .line1 .title span {
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    font-size: 14px;
+    display: inline-block;
+}
+.order .title, .collect .title, .shop_store .title, .exchange .title {
+    margin-right: 8px;
+    float: left;
+    display: inline-block;
+}
+.order .status {
+    float: left;
+    display: inline-block;
+    margin-left: 100px;
+}
+.order .status li {
+    padding-left: 10px;
+    float: left;
+    display: inline-block;
+}
+.order .status li span {
+    color: #c41921;
+    padding-left: 7px;
+    padding-right: 10px;
+}
+.order .status i {
+    width: 1px;
+    height: 12px;
+    background-color: #999;
+    margin-top: 2px;
+    display: inline-block;
+}
+.proListUc {
+    /*height: 270px;*/
+    padding: 0px 15px;
+}
+.proListUc>ul {
+    padding: 10px 0px;
+    height: 50px;
+}
+.proListUc li {
+    float: left;
+    display: inline-block;
+}
+.proListUc ul.img li, .proListUc ul.img img {
+    width: 50px;
+    height: 50px;
+}
+.proListUc ul.img {
+    margin-left: 30px;
+    width: 110px;
+    height: 50px;
+    overflow: hidden;
+}
+.proListUc ul.img li {
+    margin-right: 5px;
+}
+.proListUc .name {
+    width: 240px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+.proListUc .attr, .proListUc .time, .proListUc .type {
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+.proListUc .check {
+    margin-top: 12px;
+    height: 25px;
+    line-height: 25px;
+    width: 54px;
+    overflow: hidden;
+}
+.account .cart {
+    float: left;
+    width: 306px;
+    height: 308px;
+    padding: 10px 0px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+.proListUc_cart {
+    width: 295px;
+    height: auto;
+    margin-left: 12px;
+    float: left;
+}
+.proListUc_cart .div_scroll {
+    width: 100%;
+    height: 215px;
+    overflow: auto;
+    float: left;
+}
+.proListUc_cart .listLine_cart {
+    width: 275px;
+    height: 215px;
+    display: inline-block;
+}
+.proListUc_cart .listLine_cart li {
+    width: 275px;
+    height: 60px;
+    padding: 5px 0px;
+    display: inline-block;
+}
+.proListUc_cart .listLine_cart li a.pic {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+}
+.proListUc_cart .listLine_cart li a.name {
+    float: left;
+    margin-left: 10px;
+    width: 195px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    display: inline-block;
+}
+.proListUc_cart .listLine_cart li a img {
+    width: 60px;
+    height: 60px;
+}
+.proListUc_cart .listLine_cart li p {
+    float: left;
+    margin-left: 10px;
+    width: 195px;
+    height: 15px;
+    line-height: 15px;
+}
+.proListUc_cart p.more {
+    width: 275px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-top: 1px #e4e4e4 dotted;
+    display: inline-block;
+    margin-top: 20px;
+}
+.account .exchange {
+    float: left;
+    width: 692px;
+    height: 225px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.order .more, .collect .more, .shop_store .more, .exchange .more {
+    margin-right: 20px;
+    float: right;
+    display: inline-block;
+}
+.exchangeList {
+    margin-top: 20px;
+}
+.exchangeList .colFrame {
+    width: 635px;
+    height: 150px;
+    float: left;
+    display: inline-block;
+    margin-left: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.exchangeList ul {
+    width: 635px;
+    position: relative;
+}
+.exchangeList ul li {
+    width: 157px;
+    height: 150px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.exchangeList ul li a {
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+.exchangeList ul li a.img {
+    position: relative;
+}
+.exchangeList ul li a img {
+    width: 120px;
+    height: 120px;
+}
+.exchangeList ul li a span {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    background: #E31939;
+    color: #ffffff;
+    height: 20px;
+    line-height: 20px;
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+}
+.exchangeList ul li a.name {
+    height: 30px;
+    line-height: 30px;
+}
+.account .history {
+    float: left;
+    width: 306px;
+    height: 225px;
+    padding: 10px 0px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+.emptyFrame_history {
+    width: 185px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+.account .middle .emptyFrame_history i {
+    width: 65px;
+    height: 64px;
+    background-position: -275px 0px;
+    display: inline-block;
+}
+.emptyFrame_history span {
+    width: 185px;
+    text-align: center;
+    color: #DD997F;
+    font-size: 14px;
+    float: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+.account .collect {
+    float: left;
+    width: 999px;
+    height: 260px;
+    padding: 10px 0px 0px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+.collect .line2 {
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    float: left;
+    cursor: pointer;
+}
+.collect .line2 .title span {
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    font-size: 14px;
+    display: inline-block;
+}
+.collect .line1 .title span {
+    color: #FD6760;
+}
+.collect .line2 .title i {
+    width: 4px;
+    height: 18px;
+    line-height: 35px;
+    display: inline-block;
+    margin-left: 13px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.emptyFrame_shop {
+    width: 385px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+.emptyFrame_shop span {
+    width: 385px;
+    text-align: center;
+    color: #DD997F;
+    font-size: 14px;
+    float: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+.account .middle .emptyFrame_shop i {
+    width: 65px;
+    height: 64px;
+    background-position: -175px 0px;
+    display: inline-block;
+}
